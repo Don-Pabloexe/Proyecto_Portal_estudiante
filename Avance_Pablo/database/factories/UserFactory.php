@@ -1,5 +1,5 @@
 <?php
-
+//asjdasdn,asmdbnas,mdnbasdbnasd
 namespace Database\Factories;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
@@ -13,7 +13,7 @@ class UserFactory extends Factory
      * @return array
      */
     public function definition()
-    {
+{
         return [
             'name' => $this->faker->name(),
             'email' => $this->faker->unique()->safeEmail(),
