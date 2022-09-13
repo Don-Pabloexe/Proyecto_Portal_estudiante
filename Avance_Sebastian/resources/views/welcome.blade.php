@@ -30,12 +30,13 @@
                 width: 50%;
             }
 
-            .cont {
-                background-color: #cfc2cf;
-                margin-top: 25px;
-                margin-left: 30px;
-                margin-right: 30px;
-                padding: 35px;
+            .carous {
+                margin-top: 45px;
+                margin-left: 55px;
+                margin-right: 55px;
+                padding: 0px;
+                text-align: center;
+                width: 30%;
             }
 
         </style>
@@ -53,11 +54,29 @@
                 <img href = "#" src = "{{ asset('images/icon_uct.png') }}" class = "nav-r" width = "50" height = "50">
             </div>
         </nav>
-
-        <div class = "cont">
-            This is a demo box to illustrate the code given in thesitewizard.com's tutorial on creating coloured boxes.
-        </div>
-
+        
+        <div class = "carous">
+            <div id = "carouselExampleControls" class = "carousel slide" data-ride = "carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="d-block w-100" src = "{{ asset('images/cursos.jpg') }}" alt="First slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src = "{{ asset('images/back.jpg') }}" alt="Second slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src = "{{ asset('images/cursos.jpg') }}" alt="Third slide">
+                    </div>
+                </div>
+                    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+            </div>
         <script src = "{{ asset('js/app.js') }}" type = "text/js"></script>
     </body>
 </html>
