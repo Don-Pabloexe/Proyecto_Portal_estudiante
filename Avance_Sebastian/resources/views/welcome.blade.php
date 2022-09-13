@@ -4,25 +4,60 @@
     <head>
         <meta charset = "utf-8">
         <meta name = "viewport" content = "width=device-width, initial-scale=1">
-        <title>Inicio Sesión</title>
+        <title>Bienvenido</title>
         <link href = "{{ asset('css/app.css') }}" rel = "stylesheet" type = "text/css"/>
         <link rel = "icon" href = "{{ asset('images/icon_uct.png') }}">
+
         <style>
+
             body {
-                text-align: center;
+                background-image: url("{{ asset('images/back.jpg') }}");
+                background-color: #cccccc;
             }
+
+            .navbar {
+                margin-top: 14px;
+                margin-left: 10px;
+            }
+
+            .nav-r{
+                float: right;
+                text-align: right;
+            }
+
+            .title {
+                text-align: center;
+                width: 50%;
+            }
+
+            .cont {
+                background-color: #cfc2cf;
+                margin-top: 25px;
+                margin-left: 30px;
+                margin-right: 30px;
+                padding: 35px;
+            }
+
         </style>
+
     </head>
 
     <body>
-        <div class = "card" style = "width: 18rem;">
-    <img src = "{{ asset('images/icon_uct.png')}}" class = "card-img-top" alt = "...">
-    <div class = "card-body">
-        <h5 class = "card-title">Card title</h5>
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        <a href = "#" class = "btn btn-primary">Go somewhere</a>
-    </div>
-    </div>
+
+        <nav class = "navbar">
+            <img href = "#" src = "{{ asset('images/icon_uct2.png') }}" alt = "" width = "180" height = "60">
+
+            <div>
+                <img href = "#" src = "{{ asset('images/icon_uct.png') }}" class = "nav-r" width = "50" height = "50">
+                <img href = "#" src = "{{ asset('images/icon_uct.png') }}" class = "nav-r" width = "50" height = "50">
+                <img href = "#" src = "{{ asset('images/icon_uct.png') }}" class = "nav-r" width = "50" height = "50">
+            </div>
+        </nav>
+
+        <div class = "cont">
+            This is a demo box to illustrate the code given in thesitewizard.com's tutorial on creating coloured boxes.
+        </div>
+
         <script src = "{{ asset('js/app.js') }}" type = "text/js"></script>
     </body>
 </html>
