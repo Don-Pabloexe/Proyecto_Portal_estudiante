@@ -29,23 +29,6 @@
                 text-align: right;
             }
 
-            .title {
-                text-align: center;
-                width: 50%;
-            }
-
-            .nav-item {
-                background-color: #cccccc;
-                margin-right: 50px;
-                font-size: 20px;
-            }
-
-            .nav justify-content-center {
-                background-color: #cccccc;
-            }
-
-
-
         </style>
 
     </head>
@@ -53,7 +36,7 @@
     <body>
 
         <nav class = "navbar">
-            <img href = "#" src = "{{ asset('images/icon_uct2.png') }}" alt = "" width = "130" height = "45">
+            <img href = "#" src = "{{ asset('images/icon_uct2.png') }}" alt = "" width = "130" height = "45" aria-controls = "sidebar">
 
             <div>
                 <img href = "#" src = "{{ asset('images/icon_uct.png') }}" class = "nav-r" width = "25%">
@@ -62,18 +45,7 @@
             </div>
         </nav>
 
-        <ul class = "nav justify-content-center">
-            <li class = "nav-item">
-                <a class = "nav-link active" aria-current = "page" href = "#">Noticias</a>
-            </li>
-            <li class = "nav-item">
-                <a class = "nav-link" href = "#">Noticias</a>
-            </li>
-            <li class = "nav-item">
-                <a class = "nav-link" href = "#" width = "30px">Noticias</a>
-            </li>
-        </ul>
-
+        
         <script src = "{{ asset('js/app.js') }}" type = "text/js"></script>
     </body>
 </html>
