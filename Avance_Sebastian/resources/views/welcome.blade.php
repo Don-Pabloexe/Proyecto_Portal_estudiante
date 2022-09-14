@@ -13,11 +13,15 @@
             body {
                 background-image: url("{{ asset('images/back.jpg') }}");
                 background-color: #cccccc;
+                background-repeat: no-repeat;
+                background-attachment: fixed;
             }
 
             .navbar {
-                margin-top: 14px;
+                padding-top: 22px;
+                padding-bottom: 22px;
                 margin-left: 10px;
+                margin-right: 10px;
             }
 
             .nav-r{
@@ -30,13 +34,27 @@
                 width: 50%;
             }
 
-            .carous {
-                margin-top: 45px;
-                margin-left: 55px;
-                margin-right: 55px;
-                padding: 0px;
-                text-align: center;
-                width: 30%;
+            .news {
+                font-size: 0px;
+            }
+
+            .seccions {
+                margin-top: 35px;
+                width: 50%;
+                margin-left: auto;
+                margin-right: auto;
+            }
+
+            .seccions2 {
+                width: 33.33%;
+                margin-left: auto;
+                margin-right: auto;
+            }
+
+            .seccions3 {
+                width: 50%;
+                margin-left: auto;
+                margin-right: auto;
             }
 
         </style>
@@ -46,14 +64,25 @@
     <body>
 
         <nav class = "navbar">
-            <img href = "#" src = "{{ asset('images/icon_uct2.png') }}" alt = "" width = "180" height = "60">
+            <img href = "#" src = "{{ asset('images/icon_uct2.png') }}" alt = "" width = "130" height = "45">
 
             <div>
-                <img href = "#" src = "{{ asset('images/icon_uct.png') }}" class = "nav-r" width = "50" height = "50">
-                <img href = "#" src = "{{ asset('images/icon_uct.png') }}" class = "nav-r" width = "50" height = "50">
-                <img href = "#" src = "{{ asset('images/icon_uct.png') }}" class = "nav-r" width = "50" height = "50">
+                <img href = "#" src = "{{ asset('images/icon_uct.png') }}" class = "nav-r" width = "25%">
+                <img href = "#" src = "{{ asset('images/icon_uct.png') }}" class = "nav-r" width = "25%">
+                <img href = "#" src = "{{ asset('images/icon_uct.png') }}" class = "nav-r" width = "25%">
             </div>
         </nav>
+
+        <div class = "news">
+            <img class = "seccions" src = "{{ asset('images/cursos.jpg') }}">
+            <img class = "seccions" src = "{{ asset('images/biblio.jpg') }}">
+            <img class = "seccions2" src = "{{ asset('images/cursos.jpg') }}">
+            <img class = "seccions2" src = "{{ asset('images/cursos.jpg') }}">
+            <img class = "seccions2" src = "{{ asset('images/cursos.jpg') }}">
+            <img class = "seccions3" src = "{{ asset('images/cursos.jpg') }}">
+            <img class = "seccions3" src = "{{ asset('images/cursos.jpg') }}">
+        </div>
+
         <script src = "{{ asset('js/app.js') }}" type = "text/js"></script>
     </body>
 </html>
