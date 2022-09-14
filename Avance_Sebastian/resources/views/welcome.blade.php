@@ -34,28 +34,17 @@
                 width: 50%;
             }
 
-            .news {
-                font-size: 0px;
+            .nav-item {
+                background-color: #cccccc;
+                margin-right: 50px;
+                font-size: 20px;
             }
 
-            .seccions {
-                margin-top: 35px;
-                width: 50%;
-                margin-left: auto;
-                margin-right: auto;
+            .nav justify-content-center {
+                background-color: #cccccc;
             }
 
-            .seccions2 {
-                width: 33.33%;
-                margin-left: auto;
-                margin-right: auto;
-            }
 
-            .seccions3 {
-                width: 50%;
-                margin-left: auto;
-                margin-right: auto;
-            }
 
         </style>
 
@@ -73,15 +62,17 @@
             </div>
         </nav>
 
-        <div class = "news">
-            <img class = "seccions" src = "{{ asset('images/cursos.jpg') }}">
-            <img class = "seccions" src = "{{ asset('images/biblio.jpg') }}">
-            <img class = "seccions2" src = "{{ asset('images/cursos.jpg') }}">
-            <img class = "seccions2" src = "{{ asset('images/cursos.jpg') }}">
-            <img class = "seccions2" src = "{{ asset('images/cursos.jpg') }}">
-            <img class = "seccions3" src = "{{ asset('images/cursos.jpg') }}">
-            <img class = "seccions3" src = "{{ asset('images/cursos.jpg') }}">
-        </div>
+        <ul class = "nav justify-content-center">
+            <li class = "nav-item">
+                <a class = "nav-link active" aria-current = "page" href = "#">Noticias</a>
+            </li>
+            <li class = "nav-item">
+                <a class = "nav-link" href = "#">Noticias</a>
+            </li>
+            <li class = "nav-item">
+                <a class = "nav-link" href = "#" width = "30px">Noticias</a>
+            </li>
+        </ul>
 
         <script src = "{{ asset('js/app.js') }}" type = "text/js"></script>
     </body>
