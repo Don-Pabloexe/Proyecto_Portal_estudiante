@@ -22,8 +22,8 @@
                 position: -webkit-sticky;
                 position: sticky;
                 top: 0;
-                padding-top: 18px;
-                padding-bottom: 18px;
+                padding-top: 12px;
+                padding-bottom: 12px;
                 background-color: #0275FE; 
             }
 
@@ -59,12 +59,12 @@
 
             .secciones {
                 width: 50%;
-
+                font-size: 0px;
+                opacity: 0.4;
             }
 
             .secciones2 {
                 width: 25%;
-
             }
 
             .secciones3 {
@@ -74,7 +74,7 @@
 
             .centered {
                 position: absolute;
-                top: 50%;
+                top: 45%;
                 left: 50%;
                 transform: translate(-50%, -50%);
                 color: #FFFFFF;
@@ -95,28 +95,35 @@
 
             }
 
+            .img-c {
+                font-size: 0px;
+            }
+
         </style>
 
     </head>
 
     <body>
-
         <nav class = "navbar">
             <img href = "#" src = "{{ asset('images/icon_uct2.png') }}" alt = "" width = "130" height = "45" aria-controls = "sidebar">
             <div>
-                <a href = "#"><img href = "#" src = "{{ asset('images/logout.png') }}" class = "nav-r2 ml-4" width = "37"></a>
+                <a href = "#"><img href = "#" src = "{{ asset('images/logout.png') }}" class = "nav-r2 ml-4" width = "34"></a>
                 <a href = "https://www.facebook.com/canaluctemuco/"><img href = "#" src = "{{ asset('images/fb.png') }}" class = "nav-r2" width = "32"></a>
                 <a href = "https://www.instagram.com/uctemuco/?hl=es-la"><img href = "#" src = "{{ asset('images/ig.png') }}" class = "nav-r2" width = "32"></a>
             </div>      
         </nav>
             
         <div>
-            <img src = "{{ asset('images/cursos.jpg') }}" class = "secciones3" width = "100%"   >
+            <img src = "{{ asset('images/cursos.jpg') }}" class = "secciones3">
             <div class = "centered">
-                <h1 class = "primero" style = "Segoe UI">Inscripción de Cursos</h1>   
-                <a class = "segundo">Inscribe tus cursos dando click aquí</a>&nbsp;&nbsp;
-                <button type = "button" class = "btn btn-info">Click Aquí</button> 
+                <h1 class = "primero" style = "Segoe UI">Inscripción de Cursos</h1>
+                <a href = "https://www.youtube.com/"><button type = "button" class = "btn btn-info d-grid mt-3">Click Aquí</button></a>
             </div>
+        </div>
+
+        <div class = "img-c">
+            <img src = "{{ asset('images/documentos.jpg') }}" class = "secciones">
+            <img src = "{{ asset('images/biblioteca.jpg') }}" class = "secciones">
         </div>
 
         <footer>
