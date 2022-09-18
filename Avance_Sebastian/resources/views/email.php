@@ -12,10 +12,10 @@
 
             body {
                 background-image: url("{{ asset('images/back.jpg') }}");
-                background-color: ;
+                background-color: #cccccc;
                 background-repeat: no-repeat;
                 background-attachment: fixed;
-                background-size: auto;
+                background-size: cover;
             }
 
             .navbar {
@@ -23,8 +23,9 @@
                 position: sticky;
                 top: 0;
                 padding-top: 18px;
-                padding-bottom: 18px;
-                background-color: #0275FE; 
+                padding-bottom: 38px;
+                border: solid 2px;
+                
             }
 
             .navbar2 {
@@ -40,8 +41,7 @@
 
             .nav-r{
                 position: sticky;
-                float: right;
-                text-align: right;
+                text-align: center;
             }
 
             .nav-r2{
@@ -59,38 +59,18 @@
 
             .secciones {
                 width: 50%;
+                border: solid 2px;
 
             }
 
             .secciones2 {
                 width: 25%;
+                border: solid 2px;
 
-            }
-
-            .secciones3 {
-                width: 100%;
-                opacity: 0.4;
-            }
-
-            .centered {
-                position: absolute;
-                top: 50%;
-                left: 50%;
-                transform: translate(-50%, -50%);
-                color: #FFFFFF;
-                text-align: center;
-            }
-
-            .primero {
-                font-family: Segoe UI;
-            }
-
-            .segundo {
-                font-family: Segoe UI;
             }
 
             footer {
-                margin-top: 24px;
+                margin-top: 36px;
                 text-align: center;
 
             }
@@ -103,27 +83,38 @@
 
         <nav class = "navbar">
             <img href = "#" src = "{{ asset('images/icon_uct2.png') }}" alt = "" width = "130" height = "45" aria-controls = "sidebar">
+
             <div>
-                <a href = "#"><img href = "#" src = "{{ asset('images/logout.png') }}" class = "nav-r2 ml-4" width = "37"></a>
-                <a href = "https://www.facebook.com/canaluctemuco/"><img href = "#" src = "{{ asset('images/fb.png') }}" class = "nav-r2" width = "32"></a>
-                <a href = "https://www.instagram.com/uctemuco/?hl=es-la"><img href = "#" src = "{{ asset('images/ig.png') }}" class = "nav-r2" width = "32"></a>
-            </div>      
-        </nav>
-            
-        <div>
-            <img src = "{{ asset('images/cursos.jpg') }}" class = "secciones3" width = "100%"   >
-            <div class = "centered">
-                <h1 class = "primero" style = "Segoe UI">Inscripción de Cursos</h1>   
-                <a class = "segundo">Inscribe tus cursos dando click aquí</a>&nbsp;&nbsp;
-                <button type = "button" class = "btn btn-info">Click Aquí</button> 
+                <img href = "#" src = "{{ asset('images/logout.png') }}" class = "nav-r" width = "35">
             </div>
+
+            <div>
+                <a href = "https://www.facebook.com/canaluctemuco/"><img href = "#" src = "{{ asset('images/fb.png') }}" class = "nav-r2" width = "35"></a>
+                <a href = "https://www.instagram.com/uctemuco/?hl=es-la"><img href = "#" src = "{{ asset('images/ig.png') }}" class = "nav-r2" width = "35"></a>
+            </div>
+        </nav>
+
+        <div class = "sec_img">
+            <img href = "#" src = "{{ asset('images/cursos.jpg') }}" class = "secciones">
+            <img href = "#" src = "{{ asset('images/cursos.jpg') }}" class = "secciones">
+            <img href = "#" src = "{{ asset('images/cursos.jpg') }}" class = "secciones2">
+            <img href = "#" src = "{{ asset('images/cursos.jpg') }}" class = "secciones2">
+            <img href = "#" src = "{{ asset('images/cursos.jpg') }}" class = "secciones2">
+            <img href = "#" src = "{{ asset('images/cursos.jpg') }}" class = "secciones2">
+            <img href = "#" src = "{{ asset('images/cursos.jpg') }}" class = "secciones">
+            <img href = "#" src = "{{ asset('images/cursos.jpg') }}" class = "secciones">
+            <img href = "#" src = "{{ asset('images/cursos.jpg') }}" class = "secciones2">
+            <img href = "#" src = "{{ asset('images/cursos.jpg') }}" class = "secciones2">
+            <img href = "#" src = "{{ asset('images/cursos.jpg') }}" class = "secciones2">
+            <img href = "#" src = "{{ asset('images/cursos.jpg') }}" class = "secciones2">
         </div>
+
+        
+        <script src = "{{ asset('js/app.js') }}" type = "text/js"></script>
 
         <footer>
             <p>Author: Sebastian Muñoz Riquelme</p>
             <p><a href = "#">manredfan10@gmail.com</a></p>
         </footer>
-
-        <script src = "{{ asset('js/app.js') }}" type = "text/js"></script>
     </body>
 </html>
