@@ -4,6 +4,7 @@
     <head>
         <meta charset = "utf-8">
         <meta name = "viewport" content = "width=device-width, initial-scale=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Bienvenido</title>
         <link href = "{{ asset('css/app.css') }}" rel = "stylesheet" type = "text/css"/>
         <link rel = "icon" href = "{{ asset('images/icon_uct.png') }}">
@@ -67,7 +68,8 @@
         </nav>
         
 
-        <div class="accordion nav flex-column text-white mt-4 pb-4" id="accordionExample" style = "background-color: #; width: 25%; float:left;">
+        <div class="accordion nav flex-column text-white mt-4 pb-4 justify-content-end" id="accordionExample" style = "background-color: #; width: 100%; text-align: center;">
+            <h3>¿Que acción deseas realizar?</h3>
             <div class="accordion-item mt-4 ml-4 mr-4 b-0">
                 <h2 class="accordion-header" id="headingOne">
                 <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
@@ -81,7 +83,7 @@
                 </div>
                 </div>
             </div>
-            <div class="accordion-item mt-4 ml-4 mr-4 b-0">
+            <div class="accordion-item ml-4 mr-4 b-0">
                 <h2 class="accordion-header" id="headingTwo">
                 <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                 <img src = "{{ asset('images/book.png') }}" alt="Logo" width="18" height="18" class="d-inline-block align-text-top">
@@ -94,10 +96,10 @@
                 </div>
                 </div>
             </div>
-            <div class="accordion-item mt-4 ml-4 mr-4 b-0">
+            <div class="accordion-item ml-4 mr-4 b-0">
                 <h2 class="accordion-header" id="headingThree">
                 <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                <img src = "{{ asset('images/info_a.png') }}" alt="Logo" width="18" height="18" class="d-inline-block align-text-top">
+                <img src = "{{ asset('images/ident.png') }}" alt="Logo" width="22" height="18" class="d-inline-block align-text-top">
                     Información Académica
                 </button>
                 </h2>
@@ -107,7 +109,7 @@
                 </div>
                 </div>
             </div>
-            <div class="accordion-item mt-4 ml-4 mr-4 b-0">
+            <div class="accordion-item ml-4 mr-4 b-0">
                 <h2 class="accordion-header" id="headingFour">
                 <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
                 <img src = "{{ asset('images/notas_a.png') }}" alt="Logo" width="18" height="18" class="d-inline-block align-text-top">
@@ -120,9 +122,9 @@
                 </div>
                 </div>
             </div>
-            <div class="accordion-item mt-4 ml-4 mr-4 b-0">
+            <div class="accordion-item ml-4 mr-4 b-0">
                 <h2 class="accordion-header" id="headingFive">
-                <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive" style = "display:inline-block;">
                 <img src = "{{ asset('images/cuenta_c.png') }}" alt="Logo" width="18" height="18" class="d-inline-block align-text-top">
                     Cuenta Corriente
                 </button>
@@ -133,11 +135,73 @@
                 </div>
                 </div>
             </div>
+            <div class="accordion-item ml-4 mr-4 b-0">
+                <h2 class="accordion-header" id="headingSix">
+                <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix" style = "display:inline-block;">
+                <img src = "{{ asset('images/horas_a.png') }}" alt="Logo" width="20" height="16" class="d-inline-block align-text-top">
+                    Horas Asistente Social
+                </button>
+                </h2>
+                <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
+                <div class="accordion-body mb-2 mt-4">
+                    <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                </div>
+                </div>
+            </div>
+            <div class="accordion-item ml-4 mr-4 b-0">
+                <h2 class="accordion-header" id="headingSeven">
+                <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven" style = "display:inline-block;">
+                <img src = "{{ asset('images/doc.png') }}" alt="Logo" width="24" height="20" class="d-inline-block align-text-top">
+                    Documentos
+                </button>
+                </h2>
+                <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#accordionExample">
+                <div class="accordion-body mb-2 mt-4">
+                    <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                </div>
+                </div>
+            </div>
+            <div class="accordion-item ml-4 mr-4 b-0">
+                <h2 class="accordion-header" id="headingEight">
+                <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight" style = "display:inline-block;">
+                <img src = "{{ asset('images/solici.png') }}" alt="Logo" width="22" height="20" class="d-inline-block align-text-top">
+                    Solicitudes Estudiantes
+                </button>
+                </h2>
+                <div id="collapseEight" class="accordion-collapse collapse" aria-labelledby="headingEight" data-bs-parent="#accordionExample">
+                <div class="accordion-body mb-2 mt-4">
+                    <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                </div>
+                </div>
             </div>
 
-            <div>
-                aas
+            <div class="accordion-item ml-4 mr-4 b-0">
+                <h2 class="accordion-header" id="headingNine">
+                <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine" style = "display:inline-block;">
+                <img src = "{{ asset('images/obs.png') }}" alt="Logo" width="22" height="20" class="d-inline-block align-text-top">
+                    Observación Ficha Académica
+                </button>
+                </h2>
+                <div id="collapseNine" class="accordion-collapse collapse" aria-labelledby="headingNine" data-bs-parent="#accordionExample">
+                <div class="accordion-body mb-2 mt-4">
+                    <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                </div>
+                </div>
             </div>
+            <div class="accordion-item ml-4 mr-4 b-0">
+                <h2 class="accordion-header" id="headingTen">
+                <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTen" aria-expanded="false" aria-controls="collapseTen" style = "display:inline-block;">
+                <img src = "{{ asset('images/cert.png') }}" alt="Logo" width="22" height="22" class="d-inline-block align-text-top">
+                    Certificado Académico
+                </button>
+                </h2>
+                <div id="collapseTen" class="accordion-collapse collapse" aria-labelledby="headingTen" data-bs-parent="#accordionExample">
+                <div class="accordion-body mb-2 mt-4">
+                    <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                </div>
+                </div>
+            </div>
+        </div>
 
              
         <script src = "{{ asset('js/app.js') }}" type = "text/js"></script>
