@@ -57,6 +57,7 @@
 
     </head>
 
+    <!--Barra de Navegación-->
     <body>
         <nav class = "navbar">
             <img href = "#" src = "{{ asset('images/icon_uct2.png') }}" alt = "" width = "130" height = "45" aria-controls = "sidebar">
@@ -67,10 +68,10 @@
             </div>      
         </nav>
         
-
+    <!--Collapse Contenido-->
         <div class="accordion nav flex-column text-white mt-4 pb-4 justify-content-end" id="accordionExample" style = "background-color: #; width: 100%; text-align: center;">
-            <h3>¿Que acción deseas realizar?</h3>
-            <div class="accordion-item mt-4 ml-4 mr-4 b-0">
+            <h4>¿Que acción deseas realizar?</h4>
+            <div class="accordion-item mt-4 ml-4 mr-4 b-0 mb-2">
                 <h2 class="accordion-header" id="headingOne">
                 <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
                 <img src = "{{ asset('images/notap.png') }}" alt="Logo" width="18" height="18" class="d-inline-block align-text-top">
@@ -83,7 +84,7 @@
                 </div>
                 </div>
             </div>
-            <div class="accordion-item ml-4 mr-4 b-0">
+            <div class="accordion-item ml-4 mr-4 b-0 mb-2">
                 <h2 class="accordion-header" id="headingTwo">
                 <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                 <img src = "{{ asset('images/book.png') }}" alt="Logo" width="18" height="18" class="d-inline-block align-text-top">
@@ -96,7 +97,7 @@
                 </div>
                 </div>
             </div>
-            <div class="accordion-item ml-4 mr-4 b-0">
+            <div class="accordion-item ml-4 mr-4 b-0 mb-2">
                 <h2 class="accordion-header" id="headingThree">
                 <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                 <img src = "{{ asset('images/ident.png') }}" alt="Logo" width="22" height="18" class="d-inline-block align-text-top">
@@ -109,7 +110,7 @@
                 </div>
                 </div>
             </div>
-            <div class="accordion-item ml-4 mr-4 b-0">
+            <div class="accordion-item ml-4 mr-4 b-0 mb-2">
                 <h2 class="accordion-header" id="headingFour">
                 <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
                 <img src = "{{ asset('images/notas_a.png') }}" alt="Logo" width="18" height="18" class="d-inline-block align-text-top">
@@ -122,7 +123,7 @@
                 </div>
                 </div>
             </div>
-            <div class="accordion-item ml-4 mr-4 b-0">
+            <div class="accordion-item ml-4 mr-4 b-0 mb-2">
                 <h2 class="accordion-header" id="headingFive">
                 <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive" style = "display:inline-block;">
                 <img src = "{{ asset('images/cuenta_c.png') }}" alt="Logo" width="18" height="18" class="d-inline-block align-text-top">
@@ -135,7 +136,7 @@
                 </div>
                 </div>
             </div>
-            <div class="accordion-item ml-4 mr-4 b-0">
+            <div class="accordion-item ml-4 mr-4 b-0 mb-2">
                 <h2 class="accordion-header" id="headingSix">
                 <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix" style = "display:inline-block;">
                 <img src = "{{ asset('images/horas_a.png') }}" alt="Logo" width="20" height="16" class="d-inline-block align-text-top">
@@ -148,7 +149,7 @@
                 </div>
                 </div>
             </div>
-            <div class="accordion-item ml-4 mr-4 b-0">
+            <div class="accordion-item ml-4 mr-4 b-0 mb-2">
                 <h2 class="accordion-header" id="headingSeven">
                 <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven" style = "display:inline-block;">
                 <img src = "{{ asset('images/doc.png') }}" alt="Logo" width="24" height="20" class="d-inline-block align-text-top">
@@ -161,7 +162,7 @@
                 </div>
                 </div>
             </div>
-            <div class="accordion-item ml-4 mr-4 b-0">
+            <div class="accordion-item ml-4 mr-4 b-0 mb-2">
                 <h2 class="accordion-header" id="headingEight">
                 <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight" style = "display:inline-block;">
                 <img src = "{{ asset('images/solici.png') }}" alt="Logo" width="22" height="20" class="d-inline-block align-text-top">
@@ -175,7 +176,7 @@
                 </div>
             </div>
 
-            <div class="accordion-item ml-4 mr-4 b-0">
+            <div class="accordion-item ml-4 mr-4 b-0 mb-2">
                 <h2 class="accordion-header" id="headingNine">
                 <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine" style = "display:inline-block;">
                 <img src = "{{ asset('images/obs.png') }}" alt="Logo" width="22" height="20" class="d-inline-block align-text-top">
@@ -202,6 +203,122 @@
                 </div>
             </div>
         </div>
+
+    <!--Footer-->
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br
+    >
+    <section class = "text-white">
+    <footer class = "text-center text-lg-start text-white" id = "footer1" >
+
+    <section class = "d-flex justify-content-center justify-content-lg-between p-4 border-bottom text-white" id = "footer1">
+    <div class = "me-5 d-none d-lg-block text-white">
+    </div>
+
+    <div class = "text-white" id="footer3">
+        <a href = "" class="me-4 link-secondary">
+            <i class = "fab fa-facebook-f"></i>
+        </a>
+        <a href = "" class = "me-4 link-secondary">
+            <i class = "fab fa-twitter"></i>
+        </a>
+        <a href="" class="me-4 link-secondary">
+            <i class="fab fa-google"></i>
+        </a>
+        <a href="" class="me-4 link-secondary">
+            <i class="fab fa-instagram"></i>
+        </a>
+        <a href="" class="me-4 link-secondary">
+            <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="" class="me-4 link-secondary">
+            <i class="fab fa-github"></i>
+        </a>
+    </div>
+
+    </section>
+
+    <section class="footer3 text-white">
+        <div class="container text-center text-md-start mt-5">
+
+        <div class="row mt-3">
+
+        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+
+            <h6 class="text-uppercase fw-bold mb-4 text-white">
+                <i class="fas fa-gem me-3 text-secondary "></i>Titulo
+            </h6>
+            <p class="text-white">
+                Pagina oficial Universidad Catolica de temuco
+            </p>
+        </div>
+
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+
+            <h6 class="text-uppercase fw-bold mb-4 text-white">
+              DIRECCIONES CAMPUS
+            </h6>
+            <p class="text-decoration-underline text-white fw-semibold">CAMPUS SAN FRANCISCO</p>
+            <p class="text-white">
+                Calle: Manuel Montt 56
+                Fono: +56 45 2 205 470
+            </p>
+            <p class="text-decoration-underline text-white fw-semibold">CAMPUS SAN JUAN PABLO II</p>
+            <p class="text-white">
+                Rudecindo Ortega 02950
+                Fono: +56 45 2 553 978
+            </p>
+          </div>
+
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+
+            <h6 class="text-uppercase fw-bold mb-4 text-white">
+              TELÉFONOS DE UTILIDAD
+            </h6>
+            <p class="text-decoration-underline text-white fw-semibold">BIENESTAR ESTUDIANTIL</p>
+            <p class="text-white">
+                Calle: Manuel Montt 56
+                Fono: +56 45 2 205 424
+            </p>
+           <p class="text-decoration-underline text-white fw-semibold">PRENSA INSTITUCIONAL</p>
+            <p class="text-white">
+              Avenida Alemania 0211
+              Fono: +56 45 2 205 428
+            </p>
+          </div>
+
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+            <h6 class="text-uppercase fw-bold mb-4 text-white">CORREOS</h6>
+           <p class="text-decoration-underline text-white fw-semibold">Oficina de Informaciones</p>
+            <p class="text-white">
+              Informaciones: info@uct.cl
+            </p>
+            <p class="text-decoration-underline text-white fw-semibold">Soporte Sistemas</p>
+            <p class="text-white">
+              soportesistemas@uct.cl
+            </p>
+            <p class="text-decoration-underline text-white fw-semibold">Becas y Créditos Beneficios Estudiantiles</p>
+            <p class="text-white">
+              bienestarestudiantil@uct.cl
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="text-center p-4 text-white" id="footer2">
+    Portal del Estudiante es un proyecto realizado por la Dirección de Desarrollo de Sistemas UCTemuco.
+    Soporte, comentarios, errores reportarlos al correo: soportesistemas@uct.cl.
+    </div>
+ 
+    </footer>
+    </section>
 
              
         <script src = "{{ asset('js/app.js') }}" type = "text/js"></script>
