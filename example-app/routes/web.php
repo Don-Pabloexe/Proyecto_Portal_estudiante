@@ -13,6 +13,10 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
+Route::get('Inicio', function () {
+    return view('Inicio');
+});
+
+Route::get('Obs_Ficha_Académica', function () {
+    return view('Obs_Ficha_Académica');
 });

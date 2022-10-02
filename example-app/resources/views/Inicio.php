@@ -14,7 +14,7 @@
         <!-- Styles -->
         <style>
             body {
-                background-image: url("{{ asset('45879.jpg') }} ");
+                background-image: url("Fondo.png");
                 background-attachment: fixed;
                 background-repeat: no-repeat;
                 background-size: cover; 
@@ -32,16 +32,16 @@
         </div>
         <!-- acceso a las rede sociales de la Universidad -->
             <div class="d-grid gap-2 d-md-block col-1">
-                <a href = "https://www.facebook.com/canaluctemuco/"><img href = "#" src = "{{ asset('fb.png') }}" class = "nav-r2" width = "32"></a>
-                <a href = "https://www.instagram.com/uctemuco/?hl=es-la"><img href = "#" src = "{{ asset('ig.png') }}" class = "nav-r2" width = "32"></a>
-                <a href = "#"><img href = "#" src = "{{ asset('logout.png') }}" class = "nav-r2 ml-4" width = "34"></a>
+                <a href = "https://www.facebook.com/canaluctemuco/"><img href = "#" src = "fb.png" class = "nav-r2" width = "32"></a>
+                <a href = "https://www.instagram.com/uctemuco/?hl=es-la"><img href = "#" src = "ig.png" class = "nav-r2" width = "32"></a>
+                <a href = "#"><img href = "#" src = "logout.png" class = "nav-r2 ml-4" width = "34"></a>
             </div>
     </nav>
     <!-- -->
     <h1 style = "text-align: center;">Bienvenido PABLO</h1>
 
     <div class="text-center">
-        <img src="carp_colo2.png" width="300" height="300" class="img-thumbnail" alt="...">
+        <img src="53133.png" width="300" height="300" class="img-thumbnail" alt="...">
     </div>
 
     <div class="container">
@@ -151,7 +151,7 @@
             <div class="card-body">
                 <h5 class="card-title">Observacione Ficha Academica</h5>
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" class="btn btn-primary">ir</a>
+                <a href="Obs_Ficha_Académica" class="btn btn-primary">ir</a>
             </div>
         </div>
     </div>
@@ -172,8 +172,9 @@
                 </div>
             </div>
         </div>
-    <!-- footer -->
-        <br>
+  </footer>
+      <!-- footer -->
+      <br>
         <br>
         <br>
         <br>
