@@ -49,7 +49,7 @@
 
     </head>
 
-    <!--Barra de Navegación-->
+<!--Barra de Navegación-->
     <body>
         <nav class = "navbar navbar-dark bg-dark">
             <img href = "#" src = "{{ asset('images/icon_uct2.png') }}" alt = "" width = "130" height = "45" aria-controls = "sidebar">
@@ -60,27 +60,64 @@
             </div>      
         </nav>
         
-    <!--Collapse Contenido-->
-        <div class = "nav flex-column text-black mt-5 pb-4 justify-content-end" id="accordionExample" style = "background-color: #; width: 100%; text-align: center;">
-            <h4>¿Que acción deseas realizar?</h4>
-            <div class = "mt-4 ml-4 mr-4 b-0 mb-2">
-                <h2 href = "nota_p" class = "accordion-header" id="headingOne">
-                    <a href = "nota_p" class = "btn btn-primary">Solicitud Nota P</a>
-                </h2>
+<!--Cotenido-->
+    <div class = "text-black mt-5 pb-4 ml-5 mr-5 justify-content-end">
+        <h2>Solicitar Nota Pendiente</h2><br>
+        <a>
+            La <b>"Nota P"</b> es la calificación utilizada en una determinada asignatura cuando no ha sido posible cumplir con la evaluación final del curso dentro de los plazos establecidos en el Calendario Académico.<br><br>
+            Esta misma sólo podrá ser solicitada si se ha cumplido con al menos el 60% de las actividades y evaluaciones del curso.<br><br>
+            Es responsabilidad de el o la estudiante que ha solicitado la <b>“Nota P”</b> completar la o las evaluaciones no rendidas, lo que permitirá reemplazar la <b>“Nota P”</b> por la calificación correspondiente. <br><br>Si el o la estudiante no cumple dichas exigencias será calificado con nota uno <b>(1,0)</b>.
+            El plazo máximo para mantener una <b>“Nota P”</b> será de un año.
+            Para mayor información puedes solicitar el reglamento de <b>Nota P</b> del alumno de pregrado a <b>dara@uct.cl</b> o bien descargarlo del sitio web: <a href = "https://dara.uct.cl">https://dara.uct.cl</a>
+        </a>
+    </div>
+
+    <div class = "ml-5 mr-5 rounded text-center">
+        <p class = "mt-4">
+            <a class = "btn btn-light pt-3 pb-3 border-dark" style = "box-shadow: none; width: 70%;" data-bs-toggle = "collapse" href = "#collapseExample" role = "button" aria-expanded = "false" aria-controls = "collapseExample">
+                Consulta Acerca de los Resultados
+            </a>
+        </p>
+        <div class = "collapse text-center" id = "collapseExample" style = "">
+            <div class = "card card-body border-dark text-center" style = "background-color: white;">
+            <table class = "table border-dark">
+                <thead class = "table-dark border-dark">
+                    <tr>
+                    <th scope="col">Rut</th>
+                    <th scope="col">Nombre</th>  
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                    <td>20329801-4</td>
+                    <td>Erioldo Mapitulo</td>
+                    </tr>
+                    <tr>
+                    </tr>
+                    <tr>
+                    </tr>
+                </tbody>
+            </table>
+                <div class = "text-center">
+                <select class = "form-select text-center w-55 p-1" aria-label = "Default select example">
+                    <option selected>Seleccione su carrera</option>
+                    <option value = "1">Primera Carrera</option>
+                    <option value = "2">Segunda Carrera</option>
+                    <option value = "3">Tercera Carrera</option>
+                </select>
+                </div>
+
             </div>
         </div>
-     
+    </div>
+
+
  <!-- footer -->
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
+
+        <br><br><br><br><br><br><br><br><br>
+
         <section>
+
         <footer class="text-center text-lg-start bg-white text-muted" id="footer1" >
         <!-- Section: Social media -->
         <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom" id="footer1">
