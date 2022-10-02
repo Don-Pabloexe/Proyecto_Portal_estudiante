@@ -13,6 +13,19 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
+Route::get('welcome', function () {
     return view('welcome');
+});
+
+Route::get('ruta', function () {
+    return view('ruta');
+});
+Route::get('prestamo_biblioteca', function () {
+    return view('prestamo_biblioteca');
+});
+Route::get('Notas_Parciales', function () {
+    return view('Notas_Parciales');
+});
+Route::get('Cuenta_Corriente', function () {
+    return view('Cuenta_Corriente');
 });

@@ -1,149 +1,99 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
-    <link rel="icon" href="{{ asset('uct.jpg') }}">
-    <script src="../js/sweetalert2.all.min.js"></script>
+    <title>Prestamo Biblioteca</title>
+    <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+    <!-- Styles -->
     <style>
-        body{
-          background-image: url(31.jpg);
-          background-repeat: no-repeat;
+        body {
+            background-image: url("{{ asset('1077409.png') }} ");
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            background-size: cover; 
         }
-        .header {
-            color: #36A0FF;
-            font-size: 27px;
-            padding: 10px;
-         }
-
-         footer{
+        footer{
           height: 100%;
          }
-        .sect1{
-          background-color: rgba(255, 255, 255, .3);
-        }
 
-
-        #footer1{
-          background-image: radial-gradient(circle at 87.5% 12.5%, #b3edfb 0, #b3edfb 50%, #b3edfb 100%);
-        }
-
-        #carouselExampleControls{
-          margin-top:50px;
-        }
-        #img1{
-          width: 500px;
-          height: 300px;
-          
-        }
-        #img2{
-          width: 500px;
-          height: 300px;
-        }
-        #img3{
-          width: 500px;
-          height: 300px;
-        }
-        #text{
-            margin-top:50px;
-            margin-left:50px;
-            background-color: rgba(255, 255, 255, .3);
-
-        }
-
-
-    
-       
     </style>
 </head>
-
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="https://www.uct.cl/">
-          <img src="{{ asset('uct.jpg') }}" width="30" height="30" class="d-inline-block align-top" alt="">
-              Universidad Catolica de Temuco
-          </a>
-        </div>
-        <a class="navbar-brand text-center">PORTAL DEL ESTUDIANTE</a>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="ruta">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="https://educa.blackboard.com/">EducaBlackboard</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="https://www.uct.cl/calendario-academico/">Calendario</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled">Atras</a>
-            </li>
-          </ul>
-        </div>
-      </div>
+    <nav class = "navbar navbar-dark bg-dark">
+                <img href = "#" src = "Universidad_Catolica_de_Temuco_Logo_Vertical.png" alt = "" width = "130" height = "45" aria-controls = "sidebar">
+                <div>
+                    <a href = "https://www.facebook.com/canaluctemuco/%22%3E"> <img href = "#" src = "{{ asset('fb.png') }}" class = "nav-r2" width = "32"></a>
+                    <a href = "https://www.instagram.com/uctemuco/?hl=es-la%22%3"> <img href = "#" src = "{{ asset('ig.png') }}" class = "nav-r2" width = "32"></a>
+                    <a href = "ruta"><img href = "#" src = "{{ asset('logout.png') }}" class = "nav-r2 ml-4" width = "34"></a>
+                </div>
     </nav>
-
-    <section class="sect1">
-        <br>
-        <h3 class="text-uppercase text-center">LOGIN</h3>
-        <form action="" class="form-inline d-flex justify-content-center flex-column flex-md-row">
-            <div class="form-group my-2">
-                <label for="" class="mx-2">RUN:</label>
-                <input type="text" class="form-control" placeholder="25175341-K">
-            </div>
-
-            <div class="form-group mx-2 my-2">
-                <label for="" class="mx-2">Contraseña:</label>
-                <input type="password" class="form-control">
-            </div>
-
-            <div class="form-group mx-2 my-4">
-                <button class="btn bg-dark text-white " type="submit">Entrar
-                </button>
-            </div>
-
-        </form>
-    </section>
-    <div class="position-relative">
-      <div class=" w-25 position-absolute" id="text"> 
-        <p class="text-black text-center fw-bold ">Jamás te enviaremos, ni a nombre de la Universidad Católica de Temuco ni de nuestros administrativos, correos electrónicos, mensajes de texto, u otro tipo de mensajes electrónicos que soliciten información personal acerca de tu cuenta.</p> 
-      </div>
-    </div>
     
-    <div id="carouselExampleControls" class="carousel slide carousel-fade" data-bs-ride="carousel">
-      <div class="carousel-inner">
-        <div class="carousel-item active" data-bs-interval="2000">
-          <img src="4.jpg" class="d-block img-fluid rounded float-end img-thumbnail"id="img1">
-        </div>
-      <div class="carousel-item" data-bs-interval="2000">
-          <img src="dos.jpg" class="d-block  img-fluid rounded float-end img-thumbnail" id="img2">
-      </div>
-      <div class="carousel-item" data-bs-interval="2000">
-          <img src="estatutos-generales.jpg" class="d-block  img-fluid rounded float-end img-thumbnail"id="img3">
-      </div>
-      <div class="carousel-item" data-bs-interval="2000">
-          <img src="oferta-formativa.jpg" class="d-block img-fluid rounded float-end img-thumbnail"id="img3">
-      </div>
-      </div>
-  </div>
+    <br>
+    <div class="d-flex justify-content-center">
+        <div class="alert alert-warning text-center col-5 " role="alert" >
+        
+            Estimado(a) "Nombre"  
 
-    <!-- Footer -->
+            Has solicitado los siguientes recursos en biblioteca:
+        </div>
+    </div>
     <br>
+    <div class="table-responsive">
+        <table class="table">
+            <thead class=" table-dark">
+                <tr>
+                <th scope="col">Material</th>
+                <th scope="col">Titulo</th>
+                <th scope="col">Autor</th>
+                <th scope="col">Fecha Prestamo</th>
+                <th scope="col">Fecha devolucion</th>
+                <th scope="col">Biblioteca</th>
+                </tr>
+            </thead>
+            <tbody class="table-primary">
+                <tr>
+                    <th scope="row">1</th>
+                    <td>Mark</td>
+                    <td>Otto</td>
+                    <td>@mdo</td>
+                    <td>@mdo</td>
+                    <td>@mdo</td>
+                </tr>
+                <tr>
+                    <th scope="row">2</th>
+                    <td>Jacob</td>
+                    <td>Thornton</td>
+                    <td>@fat</td>
+                    <td>@mdo</td>
+                    <td>@mdo</td>
+                </tr>
+                <tr>
+                    <th scope="row">3</th>
+                    <td colspan="2">Larry the Bird</td>
+                    <td>@twitter</td>
+                    <td>@mdo</td>
+                    <td>@mdo</td>
+                </tr>
+                
+               
+            </tbody>
+        </table>
+    </div>
+
     <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-  <section>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <section>
   <footer class="text-center text-lg-start bg-white text-muted" id="footer1" >
     <!-- Section: Social media -->
     <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom" id="footer1">
@@ -241,9 +191,5 @@
  
   </footer>
   </section>
-
-
-    
-
 </body>
 </html>
