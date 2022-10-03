@@ -7,11 +7,17 @@
         <title>Bienvenido</title>
         <link href = "{{ asset('css/app.css') }}" rel = "stylesheet" type = "text/css"/>
         <link rel = "icon" href = "{{ asset('images/icon_uct.png') }}">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/css/bootstrap-datepicker.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/2.3.2/css/bootstrap-responsive.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/js/bootstrap-datepicker.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js" integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous"></script>
 
         <style>
-            
+
             body {
                 background-image: url("{{ asset('images/1077409.png') }} ");
                 background-attachment: fixed;
@@ -51,11 +57,12 @@
                 margin-left: 10px;
             }
 
+
         </style>
 
     </head>
 
-<!--Barra de Navegación-->
+    <!--Barra de Navegación-->
     <body>
         <nav class = "navbar navbar-dark bg-dark">
             <img href = "#" src = "{{ asset('images/icon_uct2.png') }}" alt = "" width = "130" height = "45" aria-controls = "sidebar">
@@ -66,64 +73,62 @@
             </div>      
         </nav>
         
-<!--Cotenido-->
-    <div class = "text-black mt-5 pb-4 ml-5 mr-5 justify-content-end">
-        <h2>Solicitar Nota Pendiente</h2><br>
-        <a>
-            La <b>"Nota P"</b> es la calificación utilizada en una determinada asignatura cuando no ha sido posible cumplir con la evaluación final del curso dentro de los plazos establecidos en el Calendario Académico.<br><br>
-            Esta misma sólo podrá ser solicitada si se ha cumplido con al menos el 60% de las actividades y evaluaciones del curso.<br><br>
-            Es responsabilidad de el o la estudiante que ha solicitado la <b>“Nota P”</b> completar la o las evaluaciones no rendidas, lo que permitirá reemplazar la <b>“Nota P”</b> por la calificación correspondiente. <br><br>Si el o la estudiante no cumple dichas exigencias será calificado con nota uno <b>(1,0)</b>.
-            El plazo máximo para mantener una <b>“Nota P”</b> será de un año.
-            Para mayor información puedes solicitar el reglamento de <b>Nota P</b> del alumno de pregrado a <b>dara@uct.cl</b> o bien descargarlo del sitio web: <a href = "https://dara.uct.cl">https://dara.uct.cl</a>
-        </a>
-    </div>
+    <!--Contenido-->
 
-    <div class = "ml-5 mr-5 rounded text-center">
-        <p class = "mt-4">
-            <a class = "btn btn-light pt-3 pb-3 border-dark" style = "box-shadow: none; width: 70%;" data-bs-toggle = "collapse" href = "#collapseExample" role = "button" aria-expanded = "false" aria-controls = "collapseExample">
-                Consulta Acerca de los Resultados
+        <div class = "text-black mt-5 pb-4 ml-5 mr-5 justify-content-end">
+            <h2>Reserva Horas con Asistentes Sociales</h2><br>
+            <a>
+                En esta sección podrás realizar una reserva de hora con un/a asistente social donde se realizan las clases de tu carrera. 
+                Debes considerar que una reserva debe hacerse con <b>24 horas</b> de antelación (de Lunes a Viernes) y <b>sólo se podrá realizar una reserva cada 15 días</b> a través de este medio. 
+                La atención será a través de <b>videollamada</b>, ya que se encuentran <b>suspendidas las atenciones presenciales de forma indefinida</b>.
             </a>
-        </p>
-        <div class = "collapse text-center" id = "collapseExample" style = "">
-            <div class = "card card-body border-dark text-center" style = "background-color: white;">
-            <table class = "table border-dark">
-                <thead class = "table-dark border-dark">
-                    <tr>
-                    <th scope="col">Rut</th>
-                    <th scope="col">Nombre</th>  
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                    <td>20329801-4</td>
-                    <td>Erioldo Mapitulo</td>
-                    </tr>
-                    <tr>
-                    </tr>
-                    <tr>
-                    </tr>
-                </tbody>
-            </table>
-                <div class = "text-center">
-                <select class = "form-select text-center w-55 p-1" aria-label = "Default select example">
-                    <option selected>Seleccione su carrera</option>
-                    <option value = "1">Primera Carrera</option>
-                    <option value = "2">Segunda Carrera</option>
-                    <option value = "3">Tercera Carrera</option>
-                </select>
+        </div>
+
+        <div class = "ml-auto mr-auto rounded text-center w-auto">
+            <p class = "mt-4">
+                <a class = "btn btn-light pt-3 pb-3 border-dark w-auto" style = "box-shadow: none; width: 70%;" data-bs-toggle = "collapse" href = "#collapseExample" role = "button" aria-expanded = "false" aria-controls = "collapseExample">
+                    Reserva hora
+                </a>
+            </p>
+            <div class = "collapse text-center rounded justify-text-center w-auto" id = "collapseExample" style = "width: 50%;">
+                <div class = "card card-body border-dark text-center" style = "background-color: white; align-items: center; justify-content: center;">
+                    <label class = "" for = "start">Selecciona el día a reservar dentro de los disponibles</label>
+                    <input type = "date" id = "start" name = "trip-start"
+                        value = "now"
+                        min = "2022-10-01" max = "2022-10-31">
+                <div>
+                    <a >Seleccione el Asistente:</a>
+                    <select class = "form-select text-center mt-3" aria-label = "Default select example">
+                        <option selected>Asistente</option>
+                        <option value = "1">1</option>
+                        <option value = "2">2</option>
+                        <option value = "3">3</option>
+                    </select>
+                </div>
+                <br>
+                <div>
+                    <a >Seleccione alguna de las horas disponibles:</a>
+                    <select class = "form-select text-center mt-3" aria-label = "Default select example">
+                        <option selected>1</option>
+                        <option value = "1">2</option>
+                        <option value = "2">3</option>
+                        <option value = "3">4</option>
+                    </select>
                 </div>
 
+                    <a class = "mt-5">
+                            Las horas estan <b>sujetas a cambios</b> y a <b>disponibilidad</b> del asistente elegido.
+                    </a>
+                </div>
+                </div>
             </div>
         </div>
-    </div>
 
-
- <!-- footer -->
-
-        <br><br><br><br><br><br><br><br><br>
-
+    <!-- footer --> 
+    
+    <br><br><br><br><br><br><br><br><br>
+    
         <section>
-
         <footer class="text-center text-lg-start bg-white text-muted" id="footer1" >
         <!-- Section: Social media -->
         <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom" id="footer1">

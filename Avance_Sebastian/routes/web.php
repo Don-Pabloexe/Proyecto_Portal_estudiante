@@ -20,3 +20,7 @@ Route::get('/', function () {
 Route::get('nota_p', function () {
     return view('nota_p');
 });
+
+Route::get('hora_a', function () {
+    return view('hora_a');
+});

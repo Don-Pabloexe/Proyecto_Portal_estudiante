@@ -11,12 +11,14 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js" integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous"></script>
 
         <style>
+            
             body {
                 background-image: url("{{ asset('images/1077409.png') }} ");
                 background-attachment: fixed;
                 background-repeat: no-repeat;
                 background-size: cover;
             }
+
             .navbar {
                 position: -webkit-sticky;
                 position: sticky;
@@ -24,6 +26,7 @@
                 padding-top: 12px;
                 padding-bottom: 12px;
             }
+
             .navbar2 {
                 position: -webkit-sticky;
                 position: sticky;
@@ -34,17 +37,20 @@
                 margin-left: 10px;
                 
             }
+
             .nav-r{
                 position: sticky;
                 float: right;
                 text-align: right;
             }
+
             .nav-r2{
                 float: right;
                 text-align: right;
                 position: sticky;
                 margin-left: 10px;
             }
+
         </style>
 
     </head>
@@ -67,19 +73,18 @@
                 <h2 href = "nota_p" class = "accordion-header" id="headingOne">
                     <a href = "nota_p" class = "btn btn-primary">Solicitud Nota P</a>
                 </h2>
+                <div class = "mt-4 ml-4 mr-4 b-0 mb-2">
+                <h2 href = "hora_a" class = "accordion-header" id="headingOne">
+                    <a href = "hora_a" class = "btn btn-primary">Hora Asistente Social</a>
+                </h2>
+            </div>
             </div>
         </div>
      
- <!-- footer -->
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
+ <!-- footer --> 
+    
+    <br><br><br><br><br><br><br><br><br>
+    
         <section>
         <footer class="text-center text-lg-start bg-white text-muted" id="footer1" >
         <!-- Section: Social media -->
