@@ -17,8 +17,8 @@ Route::get('welcome', function () {
     return view('welcome');
 });
 
-Route::get('ruta', function () {
-    return view('ruta');
+Route::get('Menu', function () {
+    return view('Menu');
 });
 Route::get('prestamo_biblioteca', function () {
     return view('prestamo_biblioteca');
@@ -28,4 +28,10 @@ Route::get('Notas_Parciales', function () {
 });
 Route::get('Cuenta_Corriente', function () {
     return view('Cuenta_Corriente');
+});
+Route::get('recuperar', function () {
+    return view('recuperar');
+});
+Route::get('cambiar', function () {
+    return view('cambiar');
 });
