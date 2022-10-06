@@ -2,19 +2,17 @@
 <html lang = "{{ str_replace('_', '-', app()->getLocale()) }}">
 
     <head>
-        <meta charset = "utf-8">
-        <meta name = "viewport" content = "width=device-width, initial-scale=1">
-        <title>Bienvenido</title>
-        <link href = "{{ asset('css/app.css') }}" rel = "stylesheet" type = "text/css"/>
-        <link rel = "icon" href = "{{ asset('images/icon_uct.png') }}">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/css/bootstrap-datepicker.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/2.3.2/css/bootstrap-responsive.css">
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/js/bootstrap-datepicker.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js" integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous"></script>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Universidad Católica de Temuco</title>
+        <link rel="icon" href="{{ asset('iconoUCT.png') }}">
+        <script src="../js/sweetalert2.all.min.js"></script>
+
+        <!-- Los iconos tipo Solid de Fontawesome-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
 
         <style>
 
@@ -25,57 +23,72 @@
                 background-size: cover;
             }
 
-            .navbar {
-                position: -webkit-sticky;
-                position: sticky;
-                top: 0;
-                padding-top: 12px;
-                padding-bottom: 12px;
-            }
-
-            .navbar2 {
-                position: -webkit-sticky;
-                position: sticky;
-                display: block;
-                top: 0;
-                width: 28px;
-                height: 28px;
-                margin-left: 10px;
-                
-            }
-
-            .nav-r{
-                position: sticky;
-                float: right;
-                text-align: right;
-            }
-
-            .nav-r2{
-                float: right;
-                text-align: right;
-                position: sticky;
-                margin-left: 10px;
-            }
-
-
         </style>
 
     </head>
 
     <!--Barra de Navegación-->
     <body>
-        <nav class = "navbar navbar-dark bg-dark">
-            <img href = "#" src = "{{ asset('images/icon_uct2.png') }}" alt = "" width = "130" height = "45" aria-controls = "sidebar">
-            <div>
-                <a href = "#"><img href = "#" src = "{{ asset('images/logout.png') }}" class = "nav-r2 ml-4" width = "34"></a>
-                <a href = "https://www.facebook.com/canaluctemuco/"><img href = "#" src = "{{ asset('images/fb.png') }}" class = "nav-r2" width = "32"></a>
-                <a href = "https://www.instagram.com/uctemuco/?hl=es-la"><img href = "#" src = "{{ asset('images/ig.png') }}" class = "nav-r2" width = "32"></a>
-            </div>      
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="iconoUCT.png" alt="UCT" width="30" height="30">
+                </a>
+                
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://educa.blackboard.com/"><i class="fa-solid fa-square-pen"></i> EDUCA BLACKBOARD</a>
+                        </li>
+                        
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://webmail.uct.cl/"><i class="fa-solid fa-envelope"></i> WEBMAIL</a>
+                        </li>
+                        
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://directorio.uct.cl/"><i class="fa-solid fa-users"></i> DIRECTORIO</a>
+                        </li>
+                        
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://vip.uct.cl/posgrado/"><i class="fa-solid fa-graduation-cap"></i> POSTGRADO</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://admision.uct.cl/"><i class="fa-solid fa-hand-pointer"></i> ADMISIÓN</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://dge.uct.cl/"><i class="fa-solid fa-building-columns"></i> DGE</a>
+                        </li>
+                        
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://www.uct.cl/calendario-academico/"><i class="fa-regular fa-calendar"></i> CALENDARIO</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://www.uct.cl/centro-de-ayuda/"><i class="fa-solid fa-address-book"></i> CONTACTO</a>
+                        </li>
+                    </ul>
+
+                    <div>
+                        <a href="https://www.facebook.com/canaluctemuco?ref=hl" class="btn btn-outline-secondary mr-2"><i class="fab fa-facebook-f"></i> </a>
+                        <a href="https://twitter.com/UC_Temuco" class="btn btn-outline-secondary"> <i class="fab fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/uctemuco/?hl=es-la" class="btn btn-outline-secondary"> <i class="fab fa-instagram"></i> </a>
+                        <a href="https://www.youtube.com/user/canaluctemuco" class="btn btn-outline-secondary"> <i class="fa-brands fa-youtube"></i> </a>
+                        <a href="https://www.flickr.com/photos/uc_temuco/sets/" class="btn btn-outline-secondary"> <i class="fa-brands fa-flickr"></i></a>
+                    </div>
+                </div>
+            </div>
         </nav>
         
     <!--Contenido-->
 
-        <div class = "text-black mt-5 pb-4 ml-5 mr-5 justify-content-end">
+        <div class = "text-black m-5 justify-content-end">
             <h2>Reserva Horas con Asistentes Sociales</h2><br>
             <a>
                 En esta sección podrás realizar una reserva de hora con un/a asistente social donde se realizan las clases de tu carrera. 
@@ -126,125 +139,132 @@
 
     <!-- footer --> 
     
-    <br><br><br><br><br><br><br><br><br>
-    
-        <section>
-        <footer class="text-center text-lg-start bg-white text-muted" id="footer1" >
-        <!-- Section: Social media -->
-        <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom" id="footer1">
-        <!-- Left -->
-        <div class="me-5 d-none d-lg-block">
-            <h4 class="text-dark fw-bold">Datos Importantes:</h4>
-        </div>
-        <!-- Left -->
+    <footer class="bg-dark text-muted">           
+            <div class="pt-5 pb-5 footer">
+                <div class="container">
+                    <div class="row">       
+                        <div class="col-sm-3">
+                            <p class="footer-widget text-black-50">
+                                <h4>CAMPUS SAN FRANCISCO</h4>
+                                <ul>
+                                    <li>
+                                        <i class="fa-solid fa-location-dot"></i> Manuel Montt 56
+                                    </li>
 
-        <!-- Right -->
-        <div id="footer3">
-            <a href="" class="me-4 link-secondary">
-                <i class="fab fa-facebook-f"></i>
-            </a>
-            <a href="" class="me-4 link-secondary">
-                <i class="fab fa-twitter"></i>
-            </a>
-            <a href="" class="me-4 link-secondary">
-                <i class="fab fa-google"></i>
-            </a>
-            <a href="" class="me-4 link-secondary">
-                <i class="fab fa-instagram"></i>
-            </a>
-            <a href="" class="me-4 link-secondary">
-                <i class="fab fa-linkedin"></i>
-            </a>
-            <a href="" class="me-4 link-secondary">
-                <i class="fab fa-github"></i>
-            </a>
-        </div>
-        <!-- Right -->
-        </section>
-        <!-- Section: Social media -->
+                                    <li>
+                                        <i class="fa fa-phone mr-3"></i> +56 45 2 205 470
+                                    </li>
+                                </ul>
+                            </p>
 
-        <!-- Section: Links  -->
-        <section class="footer3">
-            <div class="container text-center text-md-start mt-5">
-        <!-- Grid row -->
-            <div class="row mt-3">
-        <!-- Grid column -->
-            <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
-        <!-- Content -->
-                <h6 class="text-uppercase fw-bold mb-4 text-dark">
-                    <i class="fas fa-gem me-3 text-secondary "></i>Titulo
-                </h6>
-                <p class="text-dark">
-                    Pagina oficial Universidad Catolica de temuco
-                </p>
-            </div>
-        <!-- Grid column -->
+                            <p class="pr-5 text-black-50">
+                                <h4>CAMPUS SAN JUAN PABLO II</h4>
+                                <ul>
+                                    <li>
+                                        <i class="fa-solid fa-location-dot"></i> Rudecindo Ortega 02950
+                                    </li>
 
-        <!-- Grid column -->
-            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
-        <!-- Links -->
-                <h6 class="text-uppercase fw-bold mb-4 text-dark">
-                DIRECCIONES CAMPUS
-                </h6>
-                <p class="text-decoration-underline text-dark fw-semibold">CAMPUS SAN FRANCISCO</p>
-                <p class="text-dark">
-                    Calle: Manuel Montt 56
-                    Fono: +56 45 2 205 470
-                </p>
-                <p class="text-decoration-underline text-dark fw-semibold">CAMPUS SAN JUAN PABLO II</p>
-                <p class="text-dark">
-                    Rudecindo Ortega 02950
-                    Fono: +56 45 2 553 978
-                </p>
-            </div>
-        <!-- Grid column -->
+                                    <li>
+                                        <i class="fa fa-phone mr-3"></i> +56 45 2 553 978
+                                    </li>
+                                </ul>
+                            </p>
+                        </div>
 
-        <!-- Grid column -->
-            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
-        <!-- Links -->
-                <h6 class="text-uppercase fw-bold mb-4 text-dark">
-                TELÉFONOS DE UTILIDAD
-                </h6>
-                <p class="text-decoration-underline text-dark fw-semibold">BIENESTAR ESTUDIANTIL</p>
-                <p class="text-dark">
-                    Calle: Manuel Montt 56
-                    Fono: +56 45 2 205 424
-                </p>
-            <p class="text-decoration-underline text-dark fw-semibold">PRENSA INSTITUCIONAL</p>
-                <p class="text-dark">
-                Avenida Alemania 0211
-                Fono: +56 45 2 205 428
-                </p>
-            </div>
-        <!-- Grid column -->
+                        <div class="col-sm-3">
+                            <p class="footer-widget text-black-50">
+                                <h4>CAMPUS MENCHACA LIRA</h4>
+                                <ul>
+                                    <li>
+                                        <i class="fa-solid fa-location-dot"></i> Avenida Alemania 0422
+                                    </li>
 
-        <!-- Grid column -->
-            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
-        <!-- Links -->
-                <h6 class="text-uppercase fw-bold mb-4 text-dark">CORREOS</h6>
-            <p class="text-decoration-underline text-dark fw-semibold">Oficina de Informaciones</p>
-                <p class="text-dark">
-                Informaciones: info@uct.cl
-                </p>
-                <p class="text-decoration-underline text-dark fw-semibold">Soporte Sistemas</p>
-                <p class="text-dark">
-                soportesistemas@uct.cl
-                </p>
-                <p class="text-decoration-underline text-dark fw-semibold">Becas y Créditos Beneficios Estudiantiles</p>
-                <p class="text-dark">
-                bienestarestudiantil@uct.cl
-                </p>
+                                    <li>
+                                        <i class="fa fa-phone mr-3"></i> +56 45 2 203 822
+                                    </li>
+                                </ul>
+                            </p>
+
+                            <p class="pr-5 text-black-50">
+                                <h4>CAMPUS LUIS RIVAS DEL CANTO</h4>
+                                <ul>
+                                    <li>
+                                        <i class="fa-solid fa-location-dot"></i> Callejón Las Mariposas s/n
+                                    </li>
+
+                                    <li>
+                                        <i class="fa fa-phone mr-3"></i> +56 45 2 205 596
+                                    </li>
+                                </ul>
+                            </p>
+                        </div>
+
+                        <div class="col-sm-3">
+                            <p class="footer-widget text-black-50">
+                                <h4>PRENSA INSTITUCIONAL</h4>
+                                <ul>
+                                    <li>
+                                        <i class="fa-solid fa-location-dot"></i> Avenida Alemania 0211
+                                    </li>
+
+                                    <li>
+                                        <i class="fa fa-phone mr-3"></i> +56 45 2 205 428
+                                    </li>
+                                </ul>
+                            </p>
+
+                            <p class="pr-5 text-black-50">
+                                <h4>BIENESTAR ESTUDIANTIL</h4>
+                                <ul>
+                                    <li>
+                                        <i class="fa-solid fa-location-dot"></i> Manuel Montt 56
+                                    </li>
+
+                                    <li>
+                                        <i class="fa fa-phone mr-3"></i> +56 45 2 205 424
+                                    </li>
+                                </ul>
+                            </p>
+                        </div>
+
+                        <div class="col-sm-3">
+                            <p class="footer-widget text-black-50">
+                                <h4>AULA MAGNA</h4>
+                                <ul>
+                                    <li>
+                                        <i class="fa-solid fa-location-dot"></i> Manuel Montt 56
+                                    </li>
+
+                                    <li>
+                                        <i class="fa fa-phone mr-3"></i> +56 45 2 205 471
+                                    </li>
+                                </ul>
+                            </p>
+
+                            <p class="pr-5 text-black-50">
+                                <h4>MESA CENTRAL</h4>
+                                <ul>
+                                    <li>
+                                        <i class="fa-solid fa-location-dot"></i> Prieto Norte 371
+                                    </li>
+
+                                    <li>
+                                        <i class="fa fa-phone mr-3"></i> +56 45 2 205 205
+                                    </li>
+                                </ul>
+                            </p>
+                        </div>                 
+                    </div>
+                </div>
             </div>
+
+            <!-- Copyright -->
+            <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+                © Portal del Estudiante es un proyecto realizado por la Dirección de Informática UCTemuco.
+                Soporte, comentarios, errores reportarlos al correo: soportesistemas@uct.cl.
             </div>
-        </div>
-        </section>
-        <div class="text-center p-4" id="footer2">
-        Portal del Estudiante es un proyecto realizado por la Dirección de Desarrollo de Sistemas UCTemuco.
-        Soporte, comentarios, errores reportarlos al correo: soportesistemas@uct.cl.
-        </div>
-    
-        </footer>
-    </section>
+            <!-- Copyright -->
+    </footer>
 
         <script src = "{{ asset('js/app.js') }}" type = "text/js"></script>
 </body>

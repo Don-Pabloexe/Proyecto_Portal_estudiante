@@ -24,3 +24,7 @@ Route::get('nota_p', function () {
 Route::get('hora_a', function () {
     return view('hora_a');
 });
+
+Route::get('certificado_a', function () {
+    return view('certificado_a');
+});
