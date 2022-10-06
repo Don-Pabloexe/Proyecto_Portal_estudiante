@@ -14,6 +14,8 @@
         body{
           background-image: url(31.jpg);
           background-repeat: no-repeat;
+          background-attachment: fixed;
+          background-size: cover; 
         }
         .header {
             color: #36A0FF;
@@ -31,19 +33,7 @@
 
         #carouselExampleControls{
           margin-top:50px;
-        }
-        #img1{
-          width: 500px;
-          height: 300px;
           
-        }
-        #img2{
-          width: 500px;
-          height: 300px;
-        }
-        #img3{
-          width: 500px;
-          height: 300px;
         }
         #text{
             margin-top:50px;
@@ -51,6 +41,11 @@
             background-color: rgba(255, 255, 255, .3);
 
         }
+        .carousel-inner{
+            width: 600px;
+            height: 400px;
+        }
+        
 
 
     
@@ -147,28 +142,46 @@
             </div>
         </div>
     </section>
-    <div class="position-relative">
-      <div class=" w-25 position-absolute" id="text"> 
-        <p class="text-black text-center fw-bold ">Jamás te enviaremos, ni a nombre de la Universidad Católica de Temuco ni de nuestros administrativos, correos electrónicos, mensajes de texto, u otro tipo de mensajes electrónicos que soliciten información personal acerca de tu cuenta.</p> 
-      </div>
-    </div>
-    
-    <div id="carouselExampleControls" class="carousel slide carousel-fade" data-bs-ride="carousel">
-      <div class="carousel-inner">
-        <div class="carousel-item active" data-bs-interval="2000">
-          <img src="4.jpg" class="d-block img-fluid rounded float-end img-thumbnail"id="img1">
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <div class="d-flex justify-content-center">
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+            <img src="4.jpg" class="d-block w-100" alt="..." id="img1">
+            <div class="carousel-caption d-none d-md-block">
+                <h5>Noticias UCT</h5>
+                <p>""""</p>
+            </div>
+            </div>
+            <div class="carousel-item">
+            <img src="dos.jpg" class="d-block w-100" alt="..." id="img2">
+            <div class="carousel-caption d-none d-md-block">
+                <h5>Noticias UCT</h5>
+                <p>""""</p>
+            </div>
+            </div>
+            <div class="carousel-item">
+            <img src="oferta-formativa.jpg" class="d-block w-100" alt="..." id="img3">
+            <div class="carousel-caption d-none d-md-block">
+                <h5>Noticias UCT</h5>
+                <p>""""</p>
+            </div>
+            </div>
         </div>
-      <div class="carousel-item" data-bs-interval="2000">
-          <img src="dos.jpg" class="d-block  img-fluid rounded float-end img-thumbnail" id="img2">
-      </div>
-      <div class="carousel-item" data-bs-interval="2000">
-          <img src="estatutos-generales.jpg" class="d-block  img-fluid rounded float-end img-thumbnail"id="img3">
-      </div>
-      <div class="carousel-item" data-bs-interval="2000">
-          <img src="oferta-formativa.jpg" class="d-block img-fluid rounded float-end img-thumbnail"id="img3">
-      </div>
-      </div>
-  </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    </div>
 
     <!-- Footer -->
     <br>
@@ -177,9 +190,7 @@
     <br>
     <br>
     <br>
-    <br>
-    <br>
-    <br>
+    
     <footer class="bg-dark text-muted">           
             <div class="pt-5 pb-5 footer">
                 <div class="container">
