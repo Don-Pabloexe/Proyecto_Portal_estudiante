@@ -8,12 +8,12 @@
         <link rel="icon" href="{{ asset('iconoUCT.png') }}">
         <script src="../js/sweetalert2.all.min.js"></script>
 
-        <!-- Los iconos tipo Solid de Fontawesome-->
+        <!--Iconos Solid Fontawesome-->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
-        
+
         <style>
             
             body {
@@ -21,6 +21,42 @@
                 background-attachment: fixed;
                 background-repeat: no-repeat;
                 background-size: cover;
+            }
+
+            .card {
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            max-width: 400px;
+            margin: auto;
+            text-align: center;
+            font-family: arial;
+            }
+
+            .title {
+                color: grey;
+                font-size: 18px;
+            }
+
+            button {
+                border: none;
+                outline: 0;
+                display: inline-block;
+                padding: 8px;
+                color: white;
+                background-color: #212529;
+                text-align: center;
+                cursor: pointer;
+                width: 100%;
+                font-size: 18px;
+            }
+
+            a {
+                text-decoration: none;
+                font-size: 22px;
+                color: black;
+            }
+
+            button:hover, a:hover {
+                opacity: 0.7;
             }
 
         </style>
@@ -87,30 +123,75 @@
         </nav>
         
     <!--Collapse Contenido-->
-        <div class = "nav flex-column text-black mt-5 pb-4 justify-content-end" id="accordionExample" style = "background-color: #; width: 100%; text-align: center;">
-            <h4>¿Que acción deseas realizar?</h4>
-            <div class = "mt-4 ml-4 mr-4 b-0 mb-2">
-                <h2 href = "nota_p" class = "accordion-header" id="headingOne">
-                    <a href = "nota_p" class = "btn btn-primary">Solicitud Nota P</a>
-                </h2>
-                <div class = "mt-4 ml-4 mr-4 b-0 mb-2">
-                <h2 href = "hora_a" class = "accordion-header" id="headingOne">
-                    <a href = "hora_a" class = "btn btn-primary">Hora Asistente Social</a>
-                </h2>
-                <div class = "mt-4 ml-4 mr-4 b-0 mb-2">
-                <h2 href = "certificado_a" class = "accordion-header" id="headingOne">
-                    <a href = "certificado_a" class = "btn btn-primary">Certificados Académicos</a>
-                </h2>
-                <div class = "mt-4 ml-4 mr-4 b-0 mb-2">
-                <h2 href = "info_p" class = "accordion-header" id="headingOne">
-                    <a href = "info_p" class = "btn btn-primary">Información Personal</a>
-                </h2>
-            </div>
-            </div>
+        
+        <div class = "text-black m-5 justify-content-end">
+
+            <div class="card">
+                <img src = "{{ asset('images/profile_user.png') }}" alt = "John" style = "width:60%; margin: auto; padding: 30px;">
+                <h1>Nombre Alumno</h1>
+                    <p class = "title">Nombre Carrera</p>
+                <div style = "">
+                    <p style = "display: inline;">Rut:</p>
+                    <p style = "display: inline;"><b>Rut Alumno</b></p>
+                </div><br>
+                <div style = "display: inline;">
+                    <p style = "display: inline;">Apellido Paterno:</p>
+                    <p style = "display: inline;"><b>xd</b></p>
+                </div><br>
+                <div style = "display: inline;">
+                    <p style = "display: inline;">Apellido Materno:</p>
+                    <p style = "display: inline;"><b>xd</b></p>
+                </div><br>
+                <div style = "display: inline;">
+                    <p style = "display: inline;">Nombres:</p>
+                    <p style = "display: inline;"><b>xd</b></p>
+                </div><br>
+                <div style = "display: inline;">
+                    <p style = "display: inline;">Fecha de Nacimiento:</p>
+                    <p style = "display: inline;"><b>xd</b></p>
+                </div><br>
+                <div style = "display: inline;">
+                    <p style = "display: inline;">Género:</p>
+                    <p style = "display: inline;"><b>xd</b></p>
+                </div><br>
+                <div style = "display: inline;">
+                    <p style = "display: inline;">Email Institucional</p>
+                    <p style = "display: inline;"><b>xd</b></p>
+                </div><br><br>
+
+                <h5 style = "display: inline;"><b>Actualizar Datos de Contacto</b></h5><br>
+
+                <h5 style = "display: inline;">Actualizar tu Email</h5>
+                    <div class="input-group mb-3">
+                        <span class="input-group-text" id="basic-addon1">@</span>
+                        <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+                    </div><br>
+
+                <h5 style = "display: inline;">Actualizar Numero de Celular Personal</h5>
+                    <div class="input-group mb-3">
+                        <span class="input-group-text" id="basic-addon1">+9</span>
+                        <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+                    </div><br>
+
+                <h5 style = "display: inline;">Actualizar Numero de Celular Alternativo</h5>
+                <p><small>Puede ser el de algún familiar o conocido de confianza</p></small>
+                    <div class="input-group mb-3">
+                        <span class="input-group-text" id="basic-addon1">+9</span>
+                        <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+                    </div>
+
+                <div style = "width: 50%; margin: auto; margin-bottom: 30px;">
+                    <button type = "button" class = "btn btn-primary">Cambiar</button>
+                </div>
+
+                </div><br>
+                </div><br>
+                    <p><button>Regresar</button></p>
+                </div>
             </div>
         </div>
-     
- <!-- footer --> 
+
+    <!-- Footer --> 
     
     <footer class="bg-dark text-muted">           
             <div class="pt-5 pb-5 footer">

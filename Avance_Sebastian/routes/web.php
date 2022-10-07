@@ -28,3 +28,7 @@ Route::get('hora_a', function () {
 Route::get('certificado_a', function () {
     return view('certificado_a');
 });
+
+Route::get('info_p', function () {
+    return view('info_p');
+});
