@@ -113,34 +113,27 @@
 
 
 
-    <section class="sect1">
-        <br>
-        <h3 class="text-uppercase text-center">Iniciar Sesion</h3>
-        <form action="" class="form-inline d-flex justify-content-center flex-column flex-md-row">
-            <div class="form-group my-2">
-                <label for="" class="mx-2">RUN:</label>
-                <input type="text" class="form-control" placeholder="25175341-K">
-            </div>
+  <section class="sect1">
+            <h3 class="text-uppercase text-center">Iniciar sesión</h3>
+            <article class="container-fluid">
+                <form action="" class="row g-3 justify-content-center text-center">
+                    <div class="form-floating col-lg-2">
+                        <input type="number" class="form-control input-sm" id="floatingInput" placeholder="N°RUN">
+                        <label for="floatingInput">Run sin puntos ni guión</label>
+                    </div>
+                    
+                    <div class="form-floating col-lg-2">
+                        <input type="password" class="form-control input-sm" id="floatingPassword" placeholder="Contraseña">
+                        <label for="floatingPassword">Contraseña</label>
+                    </div>
 
-            <div class="form-group mx-2 my-2">
-                <label for="" class="mx-2">Contraseña:</label>
-                <input type="password" class="form-control">
-            </div>
-
-            <div class="form-group mx-2 my-4">
-                <button class="btn bg-dark text-white " type="submit">Entrar
-                </button>
-            </div>
-        </form>
-        <div class="col-11 d-flex justify-content-center flex-column flex-md-row">
-            <div class="mx-2">
-              <a class="btn bg-dark  text-white" href="recuperar" role="button">Recuperar Contraseña</a>
-            </div>
-            
-            <div class="mx-2">
-              <a class="btn bg-dark  text-white" href="cambiar" role="button">Cambiar Contraseña</a>
-            </div>
-        </div>
+                    <div>
+                        <button type="submit" class="btn btn-success mb-3">Ingresar <i class="fa-solid fa-right-to-bracket"></i></button> 
+                        <button type="submit" class="btn btn-primary mb-3">Recuperar contraseña</button>
+                        <button type="submit" class="btn btn-primary mb-3">Cambiar contraseña</button>
+                    </div>
+                </form>
+            </article>
     </section>
    <br>
    <br>
