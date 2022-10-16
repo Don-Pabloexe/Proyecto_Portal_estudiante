@@ -91,10 +91,11 @@
             <div class="container text-center">
                 <div class="row">
                     <div class="col-md-6">
-                         <h1 style = "text-align: center;">Bienvenido PABLO</h1>
+                         <h1 style = "text-align: center;" class="text-warning">Bienvenido PABLO</h1>
                          <div class="text-center">
                             <img src="53133.png" width="300" height="300" class="img-thumbnail" alt="...">
                         </div>
+                        <br>
                         <div class="container">
                             <div class="row justify-content-center">
                                 <div class="col-8 text-center">
@@ -110,6 +111,7 @@
                                 </div>
                             </div>
                         </div>
+                        <br>
                     </div>
                     <!-- Opciones generales del portal del estudiante primera seccion -->
                     <div class="col-md-3 order-md-first">
@@ -174,8 +176,8 @@
                         </div>
                         <div class="card">
                             <div class="card-body">
-                                <h5 class="card-title">Solicitudes Estudiantiles</h5>
-                                <p class="card-text">Renuncia, Suspensión y Reincoporporación.</p>
+                                <h5 class="card-title">Solicitudes Estudiantes</h5>
+                                <p class="card-text">Renuncia, Suspensión y Reincorporación.</p>
                                 <a href="Solicitudes_Estudiantes" class="btn btn-primary">ir</a>
                             </div>
                         </div>
