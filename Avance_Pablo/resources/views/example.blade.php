@@ -1,30 +1,34 @@
 <!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Notas Parciales</title>
-    <link rel="icon" href="{{ asset('uct.jpg') }}">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
-    <!-- Styles -->
-    <style>
-        body {
-            background-image: url("{{ asset('1077409.png') }} ");
-            background-attachment: fixed;
-            background-repeat: no-repeat;
-            background-size: cover; 
-        }
-    </style>
-</head>
-<body>
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+<html lang="es-cl">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Universidad Católica de Temuco</title>
+        <link rel="icon" href="{{ asset('Logo_UCT.png') }}">
+        <script src="../js/sweetalert2.all.min.js"></script>
+
+        <!-- Los iconos tipo Solid de Fontawesome -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+        
+        <!-- Fondo del body de la paguina -->
+        <style>
+            body {
+                background-image: url("1077409.png");
+                background-attachment: fixed;
+                background-repeat: no-repeat;
+                background-size: cover; 
+            }
+        </style>
+    </head>
+
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#">
-                    <img src="uct.jpg" alt="UCT" width="30" height="30">
+                <a class="navbar-brand" href="Inicio">
+                    <img src="Logo_UCT.png" alt="UCT" width="30" height="30">
                 </a>
                 
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -77,8 +81,9 @@
                 </div>
             </div>
         </nav>
-    <br>
-    <section>
+
+        <!-- Funciones generales -->
+        <section>
             <br>
             <br>
             <br>
@@ -93,17 +98,19 @@
                         </p>
                     </div>
                 </div>
-
-    <div class="accordion" id="accordionFlushExample">
+                <div class="accordion" id="accordionFlushExample">
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="flush-headingOne">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                                <strong>Notas Parciales</strong>
+                                <strong>Historia Académica</strong>
                             </button>
                         </h2>
                         <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
                             <div class="accordion-body">
                                 <div class="text-start">
+                                    <p>
+                                        Elige una carrera para consultar las notas de los cursos que has realizado en la Universidad Católica de Temuco.
+                                    </p>
                                     <div class="text-center">
                                         <p><strong>Información del Estudiante</strong></p>
                                         <div class="accordion-body">
@@ -124,55 +131,42 @@
                                                 </table>
                                             </div>
                                         </div>
-                                        <p><strong>Seleccione una Carrera:</strong></p>
-                                            <select class="form-select text-center" aria-label="Default select example">
-                                                <option selected><strong>Seleccione una Carrera...</strong></option>
-                                                <option value="1">""</option>
-                                                <option value="2">""</option>
-                                                <option value="3">""</option>
-                                            </select>
-                                            <p><strong>Seleccione una Semestre:</strong></p>
-                                            <select class="form-select text-center" aria-label="Default select example">
-                                                <option selected><strong>Seleccione una Semestre...</strong></option>
-                                                <option value="1">""</option>
-                                                <option value="2">""</option>
-                                                <option value="3">""</option>
-                                            </select>
-                                            <p><strong>Seleccione una Semestre:</strong></p>
-                                            <select class="form-select text-center" aria-label="Default select example">
-                                                <option selected><strong>Seleccione una Asignatura...</strong></option>
-                                                <option value="1">""</option>
-                                                <option value="2">""</option>
-                                                <option value="3">""</option>
-                                            </select>
-                                            
-                                            
-                                        <p><strong>Notas Parciales</strong></p>
+                                        <p><strong>Información de la Carrera</strong></p>
                                         <div class="accordion-body">
                                             <div class="table-responsive">
                                                 <table class="table">
                                                     <thead class="table-primary">
                                                         <tr>
-                                                            <th scope="col">Descripcion</th>
-                                                            <th scope="col">Fecha</th>
-                                                            <th scope="col">Porcentaje</th>
-                                                            <th scope="col">Nota</th>
-                                                            <th scope="col">Tipo de Evaluacion</th>
+                                                            <th scope="col">Cód. Carrera</th>
+                                                            <th scope="col">Nombre Carrera</th>
+                                                            <th scope="col">Plan</th>
+                                                            <th scope="col">Ingreso</th>
+                                                            <th scope="col">Registro</th>
+                                                            <th scope="col">Situación</th>
                                                         </tr>
                                                     </thead>
                                                     <tbody>
                                                         <tr>
-                                                            <th></th>
-                                                            <td></td>
-                                                            <td></td>
-                                                            <td></td>
-                                                            <td></td>
+                                                            <th>154</th>
+                                                            <td>INGENIERÍA CIVIL EN INFORMÁTICA</td>
+                                                            <td>3</td>
+                                                            <td>2021</td>
+                                                            <td>2021011647</td>
+                                                            <td>REGULAR</td>
                                                         </tr>
                                                     </tbody>
                                                 </table>
                                             </div>
                                         </div>
                                     </div>
+                                </div>
+                                <div class="container">
+                                    <button type="button" class="btn btn-primary">Listado de Cursos</button>
+                                    <button type="button" class="btn btn-primary">Competencias</button>
+                                    <button type="button" class="btn btn-primary">Creditos Libre Disposicion</button>
+                                    <button type="button" class="btn btn-primary">Prueba de Produccion Texto</button>
+                                    <button type="button" class="btn btn-primary">Avance Curricular</button>
+                                    <button type="button" class="btn btn-primary">PDF</button>
                                 </div>
                             </div>
                         </div>
@@ -180,85 +174,71 @@
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="flush-headingTwo">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-                                <strong>Asistencia</strong>
+                                <strong>Cursos Inscritos</strong>
                             </button>
                         </h2>
                         <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
                             <div class="accordion-body">
-                            <div class="text-start">
-                                    <div class="text-center">
-                                        <p><strong>Información del Estudiante</strong></p>
-                                        <div class="accordion-body">
-                                            <div class="table-responsive">
-                                                <table class="table">
-                                                    <thead class="table-primary">
-                                                        <tr>
-                                                            <th scope="col">RUT</th>
-                                                            <th scope="col">NOMBRE</th>
-                                                        </tr>
-                                                    </thead>
-                                                    <tbody>
-                                                        <tr>
-                                                            <th>2064351647</th>
-                                                            <td>PABLO BENJAMÍN GOMEZ CORTEZ</td>
-                                                        </tr>
-                                                    </tbody>
-                                                </table>
-                                            </div>
-                                        </div>
-                                        <p><strong>Seleccione una Carrera:</strong></p>
-                                            <select class="form-select text-center" aria-label="Default select example">
-                                                <option selected><strong>Seleccione una Carrera...</strong></option>
-                                                <option value="1">""</option>
-                                                <option value="2">""</option>
-                                                <option value="3">""</option>
-                                            </select>
-                                            <p><strong>Seleccione una Semestre:</strong></p>
-                                            <select class="form-select text-center" aria-label="Default select example">
-                                                <option selected><strong>Seleccione una Semestre...</strong></option>
-                                                <option value="1">""</option>
-                                                <option value="2">""</option>
-                                                <option value="3">""</option>
-                                            </select>
-                                            <p><strong>Seleccione una Semestre:</strong></p>
-                                            <select class="form-select text-center" aria-label="Default select example">
-                                                <option selected><strong>Seleccione una Asignatura...</strong></option>
-                                                <option value="1">""</option>
-                                                <option value="2">""</option>
-                                                <option value="3">""</option>
-                                            </select>
+                                <div class="text-start">
+                                    <p>
+                                        Al seleccionar una carrera se cargará el año y el semestre actual que estas cursando, sin embargo, puedes modificar el año y el semestre para consultar otras cargas académicas. Al hacer click en el boton 'Generar Certificado', se genererá un archivo con extension .PDF que posee toda la información de tus cursos inscritos.
+                                    </p>
+                                    <br>
+                                    <p><strong>Seleccione una Carrera:</strong></p>
+                                    <select class="form-select text-center" aria-label="Default select example">
+                                        <option selected><strong>Seleccione una Carrera...</strong></option>
+                                        <option value="1">154 - Plan: 1 : INGENIERIA CIVIL EN INFORMATICA</option>
+                                        <option value="2">154 - Plan: 2 : INGENIERIA CIVIL EN INFORMATICA</option>
+                                        <option value="3">154 - Plan: 3 : INGENIERIA CIVIL EN INFORMATICA</option>
+                                    </select>
+                                </div>
+                                <br>
                                 <div class="text-center">
-                                    <p><strong>Asistencias</strong></p>
+                                    <p><strong>Información de la Carrera</strong></p>
                                     <div class="accordion-body">
                                         <div class="table-responsive">
                                             <table class="table">
                                                 <thead class="table-primary">
                                                     <tr>
-                                                        <th scope="col">N° Clase</th>
-                                                        <th scope="col">Fecha</th>
-                                                        <th scope="col">Hora de Inicio</th>
-                                                        <th scope="col">Asistencia</th>
+                                                        <th scope="col">Cód. Carrera</th>
+                                                        <th scope="col">Nombre Carrera</th>
+                                                        <th scope="col">Plan</th>
+                                                        <th scope="col">Ingreso</th>
+                                                        <th scope="col">Registro</th>
+                                                        <th scope="col">Situación</th>
                                                     </tr>
                                                 </thead>
                                                 <tbody>
                                                     <tr>
-                                                        <th>""</th>
-                                                        <td> ""</td>
-                                                        <td>""</td>
-                                                        <td>""</td>
-                                    
+                                                        <th>154</th>
+                                                        <td>INGENIERÍA CIVIL EN INFORMÁTICA</td>
+                                                        <td>3</td>
+                                                        <td>2021</td>
+                                                        <td>2021011647</td>
+                                                        <td>REGULAR</td>
                                                     </tr>
                                                 </tbody>
                                             </table>
                                         </div>
                                     </div>
                                 </div>
-                               
+                                <div class="text-start">
+                                    <p><strong>el siguiente formulario:</strong></p>
+                                    <p>
+                                        Ingresa un año y/o un semestre, luego haz clic en 'Ver Carga Académica' para ver los resultados en pantalla o en 'Generar PDF' para generar un documento el cual podras imprimir.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <br>
+
         </section>
-        <br>
-        <br>
-  
         
+        <!-- Footer -->
         <footer class="bg-dark text-muted">           
             <div class="pt-5 pb-5 footer">
                 <div class="container">
@@ -386,5 +366,5 @@
             <!-- Copyright -->
         </footer>
 
-</body>
+    </body>
 </html>
