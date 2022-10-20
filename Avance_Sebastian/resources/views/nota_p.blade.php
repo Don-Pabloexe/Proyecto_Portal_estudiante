@@ -127,45 +127,46 @@
         </a>
     </div>
 
-    <div class = "ml-5 mr-5 rounded text-center">
-        <p class = "mt-4">
-            <a class = "btn btn-light pt-3 pb-3 border-dark" style = "box-shadow: none; width: 70%;" data-bs-toggle = "collapse" href = "#collapseExample" role = "button" aria-expanded = "false" aria-controls = "collapseExample">
-                Consulta Acerca de los Resultados
-            </a>
-        </p>
-        <div class = "collapse text-center" id = "collapseExample" style = "">
-            <div class = "card card-body border-dark text-center" style = "background-color: white;">
-            <table class = "table border-dark">
-                <thead class = "table-dark border-dark">
-                    <tr>
-                    <th scope="col">Rut</th>
-                    <th scope="col">Nombre</th>  
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                    <td>20329801-4</td>
-                    <td>Erioldo Mapitulo</td>
-                    </tr>
-                    <tr>
-                    </tr>
-                    <tr>
-                    </tr>
-                </tbody>
-            </table>
-                <div class = "text-center">
-                <select class = "form-select text-center w-55 p-1" aria-label = "Default select example">
-                    <option selected>Seleccione su carrera</option>
-                    <option value = "1">Primera Carrera</option>
-                    <option value = "2">Segunda Carrera</option>
-                    <option value = "3">Tercera Carrera</option>
-                </select>
-                </div>
-
-            </div>
-        </div>
-    </div>
-
+    <div class="accordion text-center" id="accordionFlushExample">
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingOne">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                    <strong>Consulta Acerca de los Resultados</strong>
+                </button>
+            </h2>
+                <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        <div class="text-start">
+                            <div class="text-center">
+                                <p><strong>Información del Estudiante</strong></p>
+                                    <div class="accordion-body">
+                                        <div class="table-responsive">
+                                            <table class="table">
+                                            <thead class="table-primary">
+                                                    <tr>
+                                                        <th scope="col">RUT</th>
+                                                        <th scope="col">NOMBRE</th>
+                                                    </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                <th>2064351647</th>
+                                                <td>PABLO BENJAMÍN GOMEZ CORTEZ</td>
+                                                </tr>
+                                            </tbody>
+                                            </table>
+                                            <select class = "form-select text-center w-55 p-1" aria-label = "Default select example">
+                                                <option selected>Seleccione su carrera</option>
+                                                <option value = "1">Primera Carrera</option>
+                                                <option value = "2">Segunda Carrera</option>
+                                                <option value = "3">Tercera Carrera</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
  <!-- footer -->
             

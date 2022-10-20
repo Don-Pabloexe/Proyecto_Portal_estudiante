@@ -87,6 +87,7 @@
         </nav>
         
     <!--Collapse Contenido-->
+    
         <div class = "nav flex-column text-black mt-5 pb-4 justify-content-end" id="accordionExample" style = "background-color: #; width: 100%; text-align: center;">
             <h4>¿Que acción deseas realizar?</h4>
             <div class = "mt-4 ml-4 mr-4 b-0 mb-2">

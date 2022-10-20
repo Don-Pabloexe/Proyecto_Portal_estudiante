@@ -88,7 +88,7 @@
         
     <!--Collapse Contenido-->
         
-        <div class = "text-black m-5 justify-content-end">
+        <div class = "text-black m-5 justify-content-end text-center">
             <h2>Certificado Académico</h2><br>
             <a>
                 En esta sección encontrarás información sobre la certificación académica: Sobre los cursos disponibles para la certificacion, formulario de postulacion.
@@ -96,7 +96,7 @@
             </a>
         </div>
 
-        <div class = "text-black m-5 justify-content-end">
+        <div class = "text-black m-5 justify-content-end text-center">
             <h2>Principales Características</h2><br>
             <a>
                 <h4>ADICIONAL</h4>
@@ -137,104 +137,21 @@
                         </p>
                             <div class = "collapse text-center" id = "collapseExample3" style = "">
                                 <div class = "card card-body border-dark text-center" style = "background-color: rgba(0,0,0,0.5);">
-                                    <div class = "text-center">
-                                    <table class = "table border-dark m-auto">
-                                        <thead class = "table-dark border-dark ">
+                                <div class="table-responsive">
+                                    <table class="table text-white">
+                                        <thead class="table-primary">
                                             <tr>
-                                            <th scope="col">Sigla</th>
-                                            <th scope="col">Nombre</th>  
-                                            <th scope="col">Tipo de Curso</th>  
+                                            <th scope="col">RUT</th>
+                                            <th scope="col">NOMBRE</th>
                                             </tr>
                                         </thead>
-                                        <tbody> <!--Tabla n1--> 
+                                        <tbody>
                                             <tr>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            </tr>
-                                            <tr>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            </tr>
-                                            <tr>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            </tr>
-                                            <tr>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            </tr>
-                                            <tr>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            </tr>
-                                            <tr>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            </tr>
-                                            <tr>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            </tr>
-                                            <tr>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            </tr>
-                                            <tr>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            </tr>
-                                            <tr>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            </tr>
-                                            <tr>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            </tr>
-                                            <tr>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            </tr>
-                                            <tr>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            </tr>
-                                            <tr>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            </tr>
-                                            <tr>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            </tr>
-                                            <tr>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            </tr>
-                                            <tr>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
+                                            <th>2064351647</th>
+                                            <td>PABLO BENJAMÍN GOMEZ CORTEZ</td>
                                             </tr>
                                         </tbody>
                                     </table>
-                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -247,104 +164,21 @@
                         </p>
                             <div class = "collapse text-center" id = "collapseExample4" style = "">
                                 <div class = "card card-body border-dark text-center" style = "background-color: rgba(0,0,0,0.5);">
-                                    <div class = "text-center">
-                                    <table class = "table border-dark m-auto">
-                                    <thead class = "table-dark border-dark ">
+                                    <div class = "text-center text-white">
+                                    <table class="table text-white">
+                                        <thead class="table-primary">
                                             <tr>
-                                            <th scope="col">Sigla</th>
-                                            <th scope="col">Nombre</th>  
-                                            <th scope="col">Tipo de Curso</th>  
+                                            <th scope="col">RUT</th>
+                                            <th scope="col">NOMBRE</th>
                                             </tr>
                                         </thead>
-                                        <tbody> <!--Tabla n2--> 
+                                        <tbody>
                                             <tr>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            </tr>
-                                            <tr>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            </tr>
-                                            <tr>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            </tr>
-                                            <tr>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            </tr>
-                                            <tr>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            </tr>
-                                            <tr>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            </tr>
-                                            <tr>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            </tr>
-                                            <tr>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            </tr>
-                                            <tr>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            </tr>
-                                            <tr>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            </tr>
-                                            <tr>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            </tr>
-                                            <tr>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            </tr>
-                                            <tr>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            </tr>
-                                            <tr>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            </tr>
-                                            <tr>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            </tr>
-                                            <tr>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            </tr>
-                                            <tr>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
+                                            <th>2064351647</th>
+                                            <td>PABLO BENJAMÍN GOMEZ CORTEZ</td>
                                             </tr>
                                         </tbody>
                                     </table>
-                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -358,99 +192,17 @@
                             <div class = "collapse text-center" id = "collapseExample5" style = "">
                                 <div class = "card card-body border-dark text-center" style = "background-color: rgba(0,0,0,0.5);">
                                     <div class = "text-center">
-                                    <table class = "table border-dark m-auto">
-                                    <thead class = "table-dark border-dark ">
+                                    <table class="table text-white">
+                                        <thead class="table-primary">
                                             <tr>
-                                            <th scope="col">Sigla</th>
-                                            <th scope="col">Nombre</th>  
-                                            <th scope="col">Tipo de Curso</th>  
+                                            <th scope="col">RUT</th>
+                                            <th scope="col">NOMBRE</th>
                                             </tr>
                                         </thead>
-                                        <tbody> <!--Tabla n3--> 
+                                        <tbody>
                                             <tr>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            </tr>
-                                            <tr>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            </tr>
-                                            <tr>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            </tr>
-                                            <tr>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            </tr>
-                                            <tr>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            </tr>
-                                            <tr>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            </tr>
-                                            <tr>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            </tr>
-                                            <tr>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            </tr>
-                                            <tr>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            </tr>
-                                            <tr>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            </tr>
-                                            <tr>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            </tr>
-                                            <tr>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            </tr>
-                                            <tr>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            </tr>
-                                            <tr>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            </tr>
-                                            <tr>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            </tr>
-                                            <tr>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            </tr>
-                                            <tr>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
+                                            <th>2064351647</th>
+                                            <td>PABLO BENJAMÍN GOMEZ CORTEZ</td>
                                             </tr>
                                         </tbody>
                                     </table>
@@ -468,99 +220,17 @@
                             <div class = "collapse text-center" id = "collapseExample6" style = "">
                                 <div class = "card card-body border-dark text-center" style = "background-color: rgba(0,0,0,0.5);">
                                     <div class = "text-center">
-                                    <table class = "table border-dark m-auto">
-                                    <thead class = "table-dark border-dark ">
+                                    <table class="table text-white">
+                                        <thead class="table-primary">
                                             <tr>
-                                            <th scope="col">Sigla</th>
-                                            <th scope="col">Nombre</th>  
-                                            <th scope="col">Tipo de Curso</th>  
+                                            <th scope="col">RUT</th>
+                                            <th scope="col">NOMBRE</th>
                                             </tr>
                                         </thead>
-                                        <tbody> <!--Tabla n4--> 
+                                        <tbody>
                                             <tr>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            </tr>
-                                            <tr>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            </tr>
-                                            <tr>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            </tr>
-                                            <tr>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            </tr>
-                                            <tr>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            </tr>
-                                            <tr>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            </tr>
-                                            <tr>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            </tr>
-                                            <tr>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            </tr>
-                                            <tr>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            </tr>
-                                            <tr>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            </tr>
-                                            <tr>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            </tr>
-                                            <tr>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            </tr>
-                                            <tr>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            </tr>
-                                            <tr>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            </tr>
-                                            <tr>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            </tr>
-                                            <tr>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            </tr>
-                                            <tr>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
+                                            <th>2064351647</th>
+                                            <td>PABLO BENJAMÍN GOMEZ CORTEZ</td>
                                             </tr>
                                         </tbody>
                                     </table>
@@ -578,99 +248,17 @@
                             <div class = "collapse text-center" id = "collapseExample7" style = "">
                                 <div class = "card card-body border-dark text-center" style = "background-color: rgba(0,0,0,0.5);">
                                     <div class = "text-center">
-                                    <table class = "table border-dark m-auto">
-                                    <thead class = "table-dark border-dark ">
+                                    <table class="table text-white">
+                                        <thead class="table-primary">
                                             <tr>
-                                            <th scope="col">Sigla</th>
-                                            <th scope="col">Nombre</th>  
-                                            <th scope="col">Tipo de Curso</th>  
+                                            <th scope="col">RUT</th>
+                                            <th scope="col">NOMBRE</th>
                                             </tr>
                                         </thead>
-                                        <tbody> <!--Tabla n5--> 
+                                        <tbody>
                                             <tr>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            </tr>
-                                            <tr>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            </tr>
-                                            <tr>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            </tr>
-                                            <tr>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            </tr>
-                                            <tr>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            </tr>
-                                            <tr>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            </tr>
-                                            <tr>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            </tr>
-                                            <tr>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            </tr>
-                                            <tr>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            </tr>
-                                            <tr>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            </tr>
-                                            <tr>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            </tr>
-                                            <tr>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            </tr>
-                                            <tr>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            </tr>
-                                            <tr>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            </tr>
-                                            <tr>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            </tr>
-                                            <tr>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            </tr>
-                                            <tr>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
+                                            <th>2064351647</th>
+                                            <td>PABLO BENJAMÍN GOMEZ CORTEZ</td>
                                             </tr>
                                         </tbody>
                                     </table>
@@ -688,99 +276,17 @@
                             <div class = "collapse text-center" id = "collapseExample8" style = "">
                                 <div class = "card card-body border-dark text-center" style = "background-color: rgba(0,0,0,0.5);">
                                     <div class = "text-center">
-                                    <table class = "table border-dark m-auto">
-                                        <thead class = "table-dark border-dark ">
+                                    <table class="table text-white">
+                                        <thead class="table-primary">
                                             <tr>
-                                            <th scope="col">Sigla</th>
-                                            <th scope="col">Nombre</th>  
-                                            <th scope="col">Tipo de Curso</th>  
+                                            <th scope="col">RUT</th>
+                                            <th scope="col">NOMBRE</th>
                                             </tr>
                                         </thead>
-                                        <tbody> <!--Tabla n6--> 
+                                        <tbody>
                                             <tr>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            </tr>
-                                            <tr>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            </tr>
-                                            <tr>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            </tr>
-                                            <tr>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            </tr>
-                                            <tr>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            </tr>
-                                            <tr>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            </tr>
-                                            <tr>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            </tr>
-                                            <tr>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            </tr>
-                                            <tr>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            </tr>
-                                            <tr>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            </tr>
-                                            <tr>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            </tr>
-                                            <tr>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            </tr>
-                                            <tr>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            </tr>
-                                            <tr>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            </tr>
-                                            <tr>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            </tr>
-                                            <tr>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            </tr>
-                                            <tr>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
+                                            <th>2064351647</th>
+                                            <td>PABLO BENJAMÍN GOMEZ CORTEZ</td>
                                             </tr>
                                         </tbody>
                                     </table>
@@ -798,99 +304,17 @@
                             <div class = "collapse text-center" id = "collapseExample9" style = "">
                                 <div class = "card card-body border-dark text-center" style = "background-color: rgba(0,0,0,0.5);">
                                     <div class = "text-center">
-                                    <table class = "table border-dark m-auto">
-                                        <thead class = "table-dark border-dark ">
+                                    <table class="table text-white">
+                                        <thead class="table-primary">
                                             <tr>
-                                            <th scope="col">Sigla</th>
-                                            <th scope="col">Nombre</th>  
-                                            <th scope="col">Tipo de Curso</th>  
+                                            <th scope="col">RUT</th>
+                                            <th scope="col">NOMBRE</th>
                                             </tr>
                                         </thead>
-                                        <tbody> <!--Tabla n7--> 
+                                        <tbody>
                                             <tr>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            </tr>
-                                            <tr>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            </tr>
-                                            <tr>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            </tr>
-                                            <tr>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            </tr>
-                                            <tr>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            </tr>
-                                            <tr>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            </tr>
-                                            <tr>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            </tr>
-                                            <tr>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            </tr>
-                                            <tr>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            </tr>
-                                            <tr>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            </tr>
-                                            <tr>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            </tr>
-                                            <tr>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            </tr>
-                                            <tr>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            </tr>
-                                            <tr>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            </tr>
-                                            <tr>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            </tr>
-                                            <tr>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            </tr>
-                                            <tr>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
+                                            <th>2064351647</th>
+                                            <td>PABLO BENJAMÍN GOMEZ CORTEZ</td>
                                             </tr>
                                         </tbody>
                                     </table>
@@ -902,7 +326,7 @@
                 </div>
             </div>
         </div>
-
+    </div>
     <!--Segundo Collapse--> 
        
     <div class = "m-5 mr-5 p-0 mb-0 rounded text-center">
@@ -914,8 +338,8 @@
         <div class = "collapse text-center" id = "collapseExample11" style = "">
             <div class = "card card-body border-dark text-center" style = "background-color: rgba(0,0,0,0.5);">
                 <div class = "text-center">
-                    <table class = "table border-dark m-auto text-white">
-                        <thead class = "table-dark border-dark text-white">
+                    <table class = "table text-white">
+                        <thead class = "table-primary">
                             <tr>
                                 <th scope="col">Rut</th>
                                 <th scope="col">Nombre Alumno</th>  

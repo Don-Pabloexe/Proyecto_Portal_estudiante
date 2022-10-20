@@ -186,7 +186,7 @@
 
                 </div><br>
                 </div><br>
-                    <p><button>Regresar</button></p>
+                    <p><button class = "w-25 m-auto"><a class = "text-white" href = "/link/to/page2">Regresar</a></button></p>
                 </div>
             </div>
         </div>
