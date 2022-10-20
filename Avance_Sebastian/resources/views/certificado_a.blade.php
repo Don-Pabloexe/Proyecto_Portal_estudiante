@@ -23,6 +23,12 @@
                 background-size: cover;
             }
 
+            .table td.fit, 
+            .table th.fit {
+                white-space: nowrap;
+                width: 1%;
+            }
+
         </style>
 
     </head>
@@ -329,7 +335,7 @@
     </div>
     <!--Segundo Collapse--> 
        
-    <div class = "m-5 mr-5 p-0 mb-0 rounded text-center">
+    <div class = "m-5 mr-5 p-0 mb-0 rounded text-center w-auto">
     <p class = "m-5">
         <a class = "btn btn-light p-3 mb-0 border-dark" style = "" data-bs-toggle = "collapse" href = "#collapseExample11" role = "button" aria-expanded = "false" aria-controls = "collapseExample11">
             Postular
@@ -338,25 +344,19 @@
         <div class = "collapse text-center" id = "collapseExample11" style = "">
             <div class = "card card-body border-dark text-center" style = "background-color: rgba(0,0,0,0.5);">
                 <div class = "text-center">
-                    <table class = "table text-white">
-                        <thead class = "table-primary">
+                    <table class="table text-white">
+                        <thead class="table-primary">
                             <tr>
-                                <th scope="col">Rut</th>
-                                <th scope="col">Nombre Alumno</th>  
-                                <th scope="col">Teléfono Fijo</th>  
-                                <th scope="col">Celular</th>  
-                                <th scope="col">Email</th> 
+                            <th scope="col">RUT</th>
+                            <th scope="col">NOMBRE</th>
                             </tr>
                         </thead>
-                            <tbody> <!--Tabla n7--> 
+                        <tbody>
                             <tr>
-                                <td>xd</td>
-                                <td>xd</td>
-                                <td>xd</td>
-                                <td>xd</td>
-                                <td>xd</td>
-                                </tr>
-                            </tbody>
+                            <th>2064351647</th>
+                            <td>PABLO BENJAMÍN GOMEZ CORTEZ</td>
+                            </tr>
+                        </tbody>
                     </table>
                 </div>
             </div>
