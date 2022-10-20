@@ -130,7 +130,7 @@
                         <!--Dentro--> 
 
                         <div class = "rounded text-center">
-                        <p class = "m-5">
+                        <p class = "m-auto">
                             <a class = "btn btn-light pt-3 pb-3 border-dark" style = "box-shadow: none;" data-bs-toggle = "collapse" href = "#collapseExample3" role = "button" aria-expanded = "false" aria-controls = "collapseExample3">
                                 Ciudadanía y Derechos Humanos
                             </a>
@@ -156,10 +156,10 @@
                             </div>
                         </div>
 
-                        <div class = "rounded text-center 2">
-                        <p class = "m-5">
+                        <div class = "rounded text-center">
+                        <p class = "mt-4 w-auto">
                             <a class = "btn btn-light pt-3 pb-3 border-dark" data-bs-toggle = "collapse" href = "#collapseExample4" role = "button" aria-expanded = "false" aria-controls = "collapseExample4">
-                                Desarrollo Local, Territorialidad e Interculturalidad AAAAAAAAAAAAAAAAAAAAAAA
+                                Desarrollo Local, Territorialidad e Interculturalidad
                             </a>
                         </p>
                             <div class = "collapse text-center" id = "collapseExample4" style = "">
